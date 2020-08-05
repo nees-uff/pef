@@ -1,0 +1,14 @@
+# main links
+main:
+  - title: "Home"
+    url: /
+  - title: "O Projeto"
+    url: /sobre/
+  - title: "Cursos"
+    url: /cursos/
+  - title: "Acompanhe"
+    url: /acompanhe/
+  - title: "Contato"
+    url: /contato/
+  - title: "Acesse o seu curso"
+    url: /acesse/
