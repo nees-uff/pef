@@ -10,10 +10,11 @@ RUN apk add --no-cache --virtual .build-deps \
 
 ARG ALGOLIA_API_KEY
 WORKDIR /srv/jekyll
-COPY Gemfile Gemfile.lock ./
+#COPY Gemfile Gemfile.lock ./
+COPY . .
 RUN bundle install --jobs 20 --retry 5
 
-RUN pip3 install awscli \
-         awscli-plugin-endpoint
+#RUN pip3 install awscli \
+#         awscli-plugin-endpoint
 
 CMD bundle exec jekyll build && bundle exec jekyll algolia  
