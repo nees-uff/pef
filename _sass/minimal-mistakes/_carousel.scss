@@ -1,0 +1,164 @@
+.carousel_slide {
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+    line-height: 1.618;
+    color: #3C4858;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    direction: ltr;
+    box-sizing: border-box;
+    position: relative;
+    touch-action: pan-y;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.carousel-inner {
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+    line-height: 1.618;
+    color: #3C4858;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    direction: ltr;
+    user-select: none;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.item_item-1_active {
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+    line-height: 1.618;
+    color: #3C4858;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    direction: ltr;
+    user-select: none;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    transition: transform 0.6s ease-in-out;
+    backface-visibility: hidden;
+    perspective: 1000px;
+    display: block;
+    text-align: center;
+    transform: translate3d(0, 0, 0);
+    left: 0;
+}
+
+.page-header {
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+    line-height: 1.618;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    direction: ltr;
+    user-select: none;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    will-change: transform;
+    overflow: hidden;
+    margin: 0;
+    border: 0;
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+    color: #fff;
+    display: flex;
+    z-index: -2;
+    padding: 0 30px;
+    min-height: 843.3px;
+}
+
+.container {
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+    line-height: 1.618;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    direction: ltr;
+    user-select: none;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    margin-right: auto;
+    margin-left: auto;
+    width: 750px;
+    max-width: 100%;
+    color: #fff;
+    display: flex;
+    position: relative;
+    padding: 100px 0;
+    padding-top: 130px;
+}
+
+.row {
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+    line-height: 1.618;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    direction: ltr;
+    user-select: none;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    margin: 0;
+    flex: 1;
+    max-width: 100%;
+}
+
+.big-title-slider-content_text-center_col-sm-8_col-sm-offset-2 {
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+    line-height: 1.618;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    direction: ltr;
+    user-select: none;
+    color: #fff;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    text-align: center;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    width: 66.66666667%;
+    margin-left: 16.66666667%;
+}
+
+.header-filter {
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+    line-height: 1.618;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    direction: ltr;
+    user-select: none;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(http://pef.neesuff.com/wp-content/uploads/2019/10/IMG_20190207_115853-2.jpg);
+}
+
