@@ -4,6 +4,8 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 		<title>PEF – Programa de Educação Financeira – NEES UFF</title>
 <meta name="robots" content="noindex,follow">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/bootstrap.css' | relative_url }}">
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
 <link rel="dns-prefetch" href="//s.w.org">
 <link rel="alternate" type="application/rss+xml" title="PEF - Programa de Educação Financeira - NEES UFF » Feed" href="http://pef.neesuff.com/feed/">
@@ -26,9 +28,369 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
+	<link rel="stylesheet" id="wp-block-library-css" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-5-css" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-4-shims-css" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css" media="all">
+<link rel="stylesheet" id="themeisle-block_styles-css" href="http://pef.neesuff.com/wp-content/plugins/themeisle-companion/vendor/codeinwp/gutenberg-blocks/build/style.css?ver=5.2.7" type="text/css" media="all">
+<link rel="stylesheet" id="contact-form-7-css" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css" media="all">
+<link rel="stylesheet" id="siteorigin-panels-front-css" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css" media="all">
+<link rel="stylesheet" id="sow-image-default-d6014b76747a-css" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css" media="all">
+<link rel="stylesheet" id="sow-button-base-css" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css" media="all">
+<link rel="stylesheet" id="sow-button-atom-9653174267f5-css" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css" media="all">
+<link rel="stylesheet" id="sow-button-wire-11bf7fed9ca1-css" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css" media="all">
+<link rel="stylesheet" id="sow-headline-default-78d0685a5ccb-css" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css" media="all">
+<link rel="stylesheet" id="lsow-animate-css" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css" media="all">
+<link rel="stylesheet" id="lsow-frontend-css" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css" media="all">
+<link rel="stylesheet" id="lsow-button-css" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css" media="all">
+<link rel="stylesheet" id="bootstrap-css" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css" media="all">
+<link rel="stylesheet" id="hestia-font-sizes-css" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-css" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css" media="all">
+<link rel="stylesheet" id="hestia_style-css" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css" media="all">
+<style id="hestia_style-inline-css" type="text/css">
+.hestia-top-bar, .hestia-top-bar .widget.widget_shopping_cart .cart_list {
+			background-color: #363537
+		}
+		.hestia-top-bar .widget .label-floating input[type=search]:-webkit-autofill {
+			-webkit-box-shadow: inset 0 0 0px 9999px #363537
+		}.hestia-top-bar, .hestia-top-bar .widget .label-floating input[type=search], .hestia-top-bar .widget.widget_search form.form-group:before, .hestia-top-bar .widget.widget_product_search form.form-group:before, .hestia-top-bar .widget.widget_shopping_cart:before {
+			color: #ffffff
+		} 
+		.hestia-top-bar .widget .label-floating input[type=search]{
+			-webkit-text-fill-color:#ffffff !important 
+		}.hestia-top-bar a, .hestia-top-bar .top-bar-nav li a {
+			color: #ffffff
+		}.hestia-top-bar a:hover, .hestia-top-bar .top-bar-nav li a:hover {
+			color: #eeeeee
+		}
+h1, h2, h3, h4, h5, h6, .hestia-title, .hestia-title.title-in-content, p.meta-in-content , .info-title, .card-title,
+		.page-header.header-small .hestia-title, .page-header.header-small .title, .widget h5, .hestia-title, 
+		.title, .footer-brand, .footer-big h4, .footer-big h5, .media .media-heading, 
+		.carousel h1.hestia-title, .carousel h2.title, 
+		.carousel span.sub-title, .woocommerce.single-product h1.product_title, .woocommerce section.related.products h2, .hestia-about h1, .hestia-about h2, .hestia-about h3, .hestia-about h4, .hestia-about h5 {
+			font-family: Montserrat;
+		}
+@media (min-width: 769px){
+			.page-header.header-small .hestia-title,
+			.page-header.header-small .title,
+			h1.hestia-title.title-in-content,
+			.main article.section .has-title-font-size {
+				font-size: 42px;
+			}}
+	
+		a, 
+		.navbar .dropdown-menu li:hover > a,
+		.navbar .dropdown-menu li:focus > a,
+		.navbar .dropdown-menu li:active > a,
+		.navbar .navbar-nav > li .dropdown-menu li:hover > a,
+		body:not(.home) .navbar-default .navbar-nav > .active:not(.btn) > a,
+		body:not(.home) .navbar-default .navbar-nav > .active:not(.btn) > a:hover,
+		body:not(.home) .navbar-default .navbar-nav > .active:not(.btn) > a:focus,
+		a:hover, 
+		.card-blog a.moretag:hover, 
+		.card-blog a.more-link:hover, 
+		.widget a:hover,
+		.has-accent-color {
+		    color:#000344;
+		}
+		
+		.pagination span.current, .pagination span.current:focus, .pagination span.current:hover {
+			border-color:#000344
+		}
+		
+		button,
+		button:hover,
+		.woocommerce .track_order button[type="submit"],
+		.woocommerce .track_order button[type="submit"]:hover,
+		div.wpforms-container .wpforms-form button[type=submit].wpforms-submit,
+		div.wpforms-container .wpforms-form button[type=submit].wpforms-submit:hover,
+		input[type="button"],
+		input[type="button"]:hover,
+		input[type="submit"],
+		input[type="submit"]:hover,
+		input#searchsubmit, 
+		.pagination span.current, 
+		.pagination span.current:focus, 
+		.pagination span.current:hover,
+		.btn.btn-primary,
+		.btn.btn-primary:link,
+		.btn.btn-primary:hover, 
+		.btn.btn-primary:focus, 
+		.btn.btn-primary:active, 
+		.btn.btn-primary.active, 
+		.btn.btn-primary.active:focus, 
+		.btn.btn-primary.active:hover,
+		.btn.btn-primary:active:hover, 
+		.btn.btn-primary:active:focus, 
+		.btn.btn-primary:active:hover,
+		.hestia-sidebar-open.btn.btn-rose,
+		.hestia-sidebar-close.btn.btn-rose,
+		.hestia-sidebar-open.btn.btn-rose:hover,
+		.hestia-sidebar-close.btn.btn-rose:hover,
+		.hestia-sidebar-open.btn.btn-rose:focus,
+		.hestia-sidebar-close.btn.btn-rose:focus,
+		.label.label-primary,
+		.hestia-work .portfolio-item:nth-child(6n+1) .label,
+		.nav-cart .nav-cart-content .widget .buttons .button,
+		.has-accent-background-color {
+		    background-color: #000344;
+		}
+		
+		@media (max-width: 768px) { 
+	
+			.navbar-default .navbar-nav>li>a:hover,
+			.navbar-default .navbar-nav>li>a:focus,
+			.navbar .navbar-nav .dropdown .dropdown-menu li a:hover,
+			.navbar .navbar-nav .dropdown .dropdown-menu li a:focus,
+			.navbar button.navbar-toggle:hover,
+			.navbar .navbar-nav li:hover > a i {
+			    color: #000344;
+			}
+		}
+		
+		body:not(.woocommerce-page) button:not([class^="fl-"]):not(.hestia-scroll-to-top):not(.navbar-toggle):not(.close),
+		body:not(.woocommerce-page) .button:not([class^="fl-"]):not(hestia-scroll-to-top):not(.navbar-toggle):not(.add_to_cart_button),
+		div.wpforms-container .wpforms-form button[type=submit].wpforms-submit,
+		input[type="submit"], 
+		input[type="button"], 
+		.btn.btn-primary,
+		.widget_product_search button[type="submit"],
+		.hestia-sidebar-open.btn.btn-rose,
+		.hestia-sidebar-close.btn.btn-rose,
+		.everest-forms button[type=submit].everest-forms-submit-button {
+		    -webkit-box-shadow: 0 2px 2px 0 rgba(0,3,68,0.14),0 3px 1px -2px rgba(0,3,68,0.2),0 1px 5px 0 rgba(0,3,68,0.12);
+		    box-shadow: 0 2px 2px 0 rgba(0,3,68,0.14),0 3px 1px -2px rgba(0,3,68,0.2),0 1px 5px 0 rgba(0,3,68,0.12);
+		}
+		
+		.card .header-primary, .card .content-primary,
+		.everest-forms button[type=submit].everest-forms-submit-button {
+		    background: #000344;
+		}
+		
+		body:not(.woocommerce-page) .button:not([class^="fl-"]):not(.hestia-scroll-to-top):not(.navbar-toggle):not(.add_to_cart_button):hover,
+		body:not(.woocommerce-page) button:not([class^="fl-"]):not(.hestia-scroll-to-top):not(.navbar-toggle):not(.close):hover,
+		div.wpforms-container .wpforms-form button[type=submit].wpforms-submit:hover,
+		input[type="submit"]:hover,
+		input[type="button"]:hover,
+		input#searchsubmit:hover, 
+		.widget_product_search button[type="submit"]:hover,
+		.pagination span.current, 
+		.btn.btn-primary:hover, 
+		.btn.btn-primary:focus, 
+		.btn.btn-primary:active, 
+		.btn.btn-primary.active, 
+		.btn.btn-primary:active:focus, 
+		.btn.btn-primary:active:hover, 
+		.hestia-sidebar-open.btn.btn-rose:hover,
+		.hestia-sidebar-close.btn.btn-rose:hover,
+		.pagination span.current:hover,
+		.everest-forms button[type=submit].everest-forms-submit-button:hover,
+ 		.everest-forms button[type=submit].everest-forms-submit-button:focus,
+ 		.everest-forms button[type=submit].everest-forms-submit-button:active {
+			-webkit-box-shadow: 0 14px 26px -12px rgba(0,3,68,0.42),0 4px 23px 0 rgba(0,0,0,0.12),0 8px 10px -5px rgba(0,3,68,0.2);
+		    box-shadow: 0 14px 26px -12px rgba(0,3,68,0.42),0 4px 23px 0 rgba(0,0,0,0.12),0 8px 10px -5px rgba(0,3,68,0.2);
+			color: #fff;
+		}
+		
+		.form-group.is-focused .form-control {
+			background-image: -webkit-gradient(linear,left top, left bottom,from(#000344),to(#000344)),-webkit-gradient(linear,left top, left bottom,from(#d2d2d2),to(#d2d2d2));
+			background-image: -webkit-linear-gradient(linear,left top, left bottom,from(#000344),to(#000344)),-webkit-linear-gradient(linear,left top, left bottom,from(#d2d2d2),to(#d2d2d2));
+			background-image: linear-gradient(linear,left top, left bottom,from(#000344),to(#000344)),linear-gradient(linear,left top, left bottom,from(#d2d2d2),to(#d2d2d2));
+		}
+		
+		.navbar:not(.navbar-transparent) li:not(.btn):hover > a,
+		.navbar li.on-section:not(.btn) > a, 
+		.navbar.full-screen-menu.navbar-transparent li:not(.btn):hover > a,
+		.navbar.full-screen-menu .navbar-toggle:hover,
+		.navbar:not(.navbar-transparent) .nav-cart:hover, 
+		.navbar:not(.navbar-transparent) .hestia-toggle-search:hover {
+				color:#000344}
+		
+		.header-filter-gradient { 
+			background: linear-gradient(45deg, rgba(168,29,132,1) 0%, rgb(234,57,111) 100%); 
+		}
+		.has-header-gradient-color { color: #a81d84; }
+		.has-header-gradient-background-color { background-color: #a81d84; }
+		 
+		.has-background-color-color { color: #E5E5E5; }
+		.has-background-color-background-color { background-color: #E5E5E5; }
+		
 
+			.title, .title a, 
+			.card-title, 
+			.card-title a,
+			.card-title a:hover,
+			.info-title,
+			.info-title a,
+			.footer-brand, 
+			.footer-brand a,
+			.media .media-heading, 
+			.media .media-heading a,
+			.hestia-info .info-title, 
+			.card-blog a.moretag,
+			.card-blog a.more-link,
+			.card .author a,
+			.hestia-about:not(.section-image) h1, .hestia-about:not(.section-image) h2, .hestia-about:not(.section-image) h3, .hestia-about:not(.section-image) h4, .hestia-about:not(.section-image) h5,
+			aside .widget h5,
+			aside .widget a,
+			.woocommerce ul.products[class*="columns-"] li.product-category h2,
+			.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta .woocommerce-review__author,
+			.has-secondary-color {
+				color: #2d3359;
+			}
+			.has-background.has-secondary-background-color {
+				background-color: #2d3359
+			}
+		.description, .card-description, .footer-big, .hestia-features .hestia-info p, .text-gray,
+		.hestia-about:not(.section-image) p, .hestia-about:not(.section-image) h6,
+		.has-body-color-color {
+			color: #999999;
+		}
+		.has-background.has-body-color-background-color {
+			background-color: #999999
+		} 
+		.header-filter:before,
+		.has-background.has-header-overlay-color-background-color {
+			background-color: rgba(0,0,0,0.5);
+		}
+		.has-header-overlay-color-color {
+			color: rgba(0,0,0,0.5);
+		} 
+		.page-header, .page-header .hestia-title, .page-header .sub-title,
+		.has-header-text-color-color {
+			color: #fff;
+		}
+		.has-background.has-header-text-color-background-color {
+			background-color: #fff;
+		}
+			@media( max-width: 768px ) {
+				/* On mobile background-color */
+				.header > .navbar,
+				.navbar.navbar-fixed-top .navbar-collapse {
+					background-color: #fff;
+				}
+			}
+			.navbar:not(.navbar-transparent),
+			.navbar .dropdown-menu,
+			.nav-cart .nav-cart-content .widget,
+			.has-background.has-navbar-background-background-color {
+				background-color: #fff;
+			}
+			
+			@media ( min-width: 769px ) {
+				.navbar.full-screen-menu .nav.navbar-nav { background-color: rgba(255,255,255,0.9) }
+			}
+			.has-navbar-background-color {
+				color: #fff;
+			}
+		@media( min-width: 769px ) {
+			.navbar.navbar-transparent .navbar-brand,
+			.navbar.navbar-transparent .navbar-nav > li:not(.btn) > a,
+			.navbar.navbar-transparent .navbar-nav > .active > a,
+			.navbar.navbar-transparent.full-screen-menu .navbar-toggle,
+			.navbar.navbar-transparent:not(.full-screen-menu) .nav-cart-icon, 
+			.navbar.navbar-transparent.full-screen-menu li.responsive-nav-cart > a.nav-cart-icon,
+			.navbar.navbar-transparent .hestia-toggle-search {
+				color: #fff;
+			}
+		}
+		.has-navbar-transparent-text-color-color {
+			color: #fff;
+		}
+		.has-background.has-navbar-transparent-text-color-background-color {
+			background-color: #fff;
+		}
+		
+		@media( min-width: 769px ) {
+			.menu-open .navbar.full-screen-menu.navbar-transparent .navbar-toggle,
+			.navbar:not(.navbar-transparent) .navbar-brand,
+			.navbar:not(.navbar-transparent) li:not(.btn) > a,
+			.navbar.navbar-transparent.full-screen-menu li:not(.btn):not(.nav-cart) > a,
+			.navbar.navbar-transparent .dropdown-menu li:not(.btn) > a,
+			.hestia-mm-heading, .hestia-mm-description, 
+			.navbar:not(.navbar-transparent) .navbar-nav > .active > a,
+			.navbar:not(.navbar-transparent).full-screen-menu .navbar-toggle,
+			.navbar .nav-cart-icon,  
+			.navbar:not(.navbar-transparent) .hestia-toggle-search,
+			.navbar.navbar-transparent .nav-cart .nav-cart-content .widget li a,
+			.navbar .navbar-nav>li .dropdown-menu li.active>a {
+				color: #555;
+			}
+		}
+		@media( max-width: 768px ) {
+			.navbar.navbar-default .navbar-brand,
+			.navbar.navbar-default .navbar-nav li:not(.btn).menu-item > a,
+			.navbar.navbar-default .navbar-nav .menu-item.active > a,
+			.navbar.navbar-default .navbar-toggle,
+			.navbar.navbar-default .navbar-toggle,
+			.navbar .navbar-nav .dropdown:not(.btn) a .caret,
+			.navbar.navbar-default .responsive-nav-cart a,
+			.navbar.navbar-default .nav-cart .nav-cart-content a,
+			.navbar.navbar-default .hestia-toggle-search,
+			.hestia-mm-heading, .hestia-mm-description {
+				color: #555;
+			}
+			
+			.navbar .navbar-nav .dropdown:not(.btn) a .caret {
+				border-color: #555;
+			}
+		}
+		.has-navbar-text-color-color {
+			color: #555;
+		}
+		.has-background.has-navbar-text-color-background-color {
+			background-color: #555;
+		}
+		.navbar.navbar-default:not(.navbar-transparent) li:not(.btn):hover > a,
+		.navbar.navbar-default.navbar-transparent .dropdown-menu:not(.btn) li:not(.btn):hover > a,
+		.navbar.navbar-default:not(.navbar-transparent) li:not(.btn):hover > a i,
+		.navbar.navbar-default:not(.navbar-transparent) .navbar-toggle:hover,
+		.navbar.navbar-default:not(.full-screen-menu) .nav-cart-icon .nav-cart-content a:hover, 
+		.navbar.navbar-default:not(.navbar-transparent) .hestia-toggle-search:hover,
+		.navbar.navbar-transparent .nav-cart .nav-cart-content .widget li:hover a,
+		.has-navbar-text-color-hover-color {
+			color: #e91e63;
+		}
+		.navbar.navbar-default li.on-section:not(.btn) > a {color: #e91e63!important}
+		@media( max-width: 768px ) {
+			.navbar.navbar-default.navbar-transparent li:not(.btn):hover > a,
+			.navbar.navbar-default.navbar-transparent li:not(.btn):hover > a i,
+			.navbar.navbar-default.navbar-transparent .navbar-toggle:hover,
+			.navbar.navbar-default .responsive-nav-cart a:hover
+			.navbar.navbar-default .navbar-toggle:hover {
+				color: #e91e63 !important;
+			}
+		}
+		.has-background.has-navbar-text-color-hover-background-color {
+			background-color: #e91e63;
+		}
+		.form-group.is-focused .form-control,
+		 div.wpforms-container .wpforms-form .form-group.is-focused .form-control,
+		 .nf-form-cont input:not([type=button]):focus,
+		 .nf-form-cont select:focus,
+		 .nf-form-cont textarea:focus {
+		 background-image: -webkit-gradient(linear,left top, left bottom,from(#000344),to(#000344)),-webkit-gradient(linear,left top, left bottom,from(#d2d2d2),to(#d2d2d2));
+		 background-image: -webkit-linear-gradient(linear,left top, left bottom,from(#000344),to(#000344)),-webkit-linear-gradient(linear,left top, left bottom,from(#d2d2d2),to(#d2d2d2));
+		 background-image: linear-gradient(linear,left top, left bottom,from(#000344),to(#000344)),linear-gradient(linear,left top, left bottom,from(#d2d2d2),to(#d2d2d2));
+		 }
+		
+		 .navbar.navbar-transparent.full-screen-menu .navbar-collapse .navbar-nav > li:not(.btn) > a:hover {
+		 color: #000344;
+		 }
+		 
+		 .hestia-ajax-loading{
+		 border-color: #000344;
+		 }
+.btn.btn-primary:not(.colored-button):not(.btn-left):not(.btn-right):not(.btn-just-icon):not(.menu-item), input[type="submit"]:not(.search-submit), body:not(.woocommerce-account) .woocommerce .button.woocommerce-Button, .woocommerce .product button.button, .woocommerce .product button.button.alt, .woocommerce .product #respond input#submit, .woocommerce-cart .blog-post .woocommerce .cart-collaterals .cart_totals .checkout-button, .woocommerce-checkout #payment #place_order, .woocommerce-account.woocommerce-page button.button, .woocommerce .track_order button[type="submit"], .nav-cart .nav-cart-content .widget .buttons .button, .woocommerce a.button.wc-backward, body.woocommerce .wccm-catalog-item a.button, body.woocommerce a.wccm-button.button, form.woocommerce-form-coupon button.button, div.wpforms-container .wpforms-form button[type=submit].wpforms-submit, div.woocommerce a.button.alt, div.woocommerce table.my_account_orders .button, .btn.colored-button, .btn.btn-left, .btn.btn-right, .btn:not(.colored-button):not(.btn-left):not(.btn-right):not(.btn-just-icon):not(.menu-item):not(.hestia-sidebar-open):not(.hestia-sidebar-close){ padding-top:15px;  padding-bottom:15px;  padding-left:33px;  padding-right:33px; }
+.btn.btn-primary:not(.colored-button):not(.btn-left):not(.btn-right):not(.btn-just-icon):not(.menu-item), input[type="submit"]:not(.search-submit), body:not(.woocommerce-account) .woocommerce .button.woocommerce-Button, .woocommerce .product button.button, .woocommerce .product button.button.alt, .woocommerce .product #respond input#submit, .woocommerce-cart .blog-post .woocommerce .cart-collaterals .cart_totals .checkout-button, .woocommerce-checkout #payment #place_order, .woocommerce-account.woocommerce-page button.button, .woocommerce .track_order button[type="submit"], .nav-cart .nav-cart-content .widget .buttons .button, .woocommerce a.button.wc-backward, body.woocommerce .wccm-catalog-item a.button, body.woocommerce a.wccm-button.button, form.woocommerce-form-coupon button.button, div.wpforms-container .wpforms-form button[type=submit].wpforms-submit, div.woocommerce a.button.alt, div.woocommerce table.my_account_orders .button, input[type="submit"].search-submit, .hestia-view-cart-wrapper .added_to_cart.wc-forward, .woocommerce-product-search button, .woocommerce-cart .actions .button, #secondary div[id^=woocommerce_price_filter] .button, .woocommerce div[id^=woocommerce_widget_cart].widget .buttons .button, .searchform input[type=submit], .searchform button, .search-form:not(.media-toolbar-primary) input[type=submit], .search-form:not(.media-toolbar-primary) button, .woocommerce-product-search input[type=submit], .btn.colored-button, .btn.btn-left, .btn.btn-right, .btn:not(.colored-button):not(.btn-left):not(.btn-right):not(.btn-just-icon):not(.menu-item):not(.hestia-sidebar-open):not(.hestia-sidebar-close){border-radius:3px;}
 
-
+		.btn:hover{
+			background-color: #858585;
+		}
+		
+</style>
+<link rel="stylesheet" id="hestia_fonts-css" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css" media="all">
+<link rel="stylesheet" id="hestia-google-font-montserrat-css" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css" media="all">
+<link rel="stylesheet" id="tablepress-default-css" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css" media="all">
 <script type="text/javascript" src="http://pef.neesuff.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp"></script>
 <script type="text/javascript" src="http://pef.neesuff.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"></script>
 <script type="text/javascript" src="http://pef.neesuff.com/wp-content/plugins/livemesh-siteorigin-widgets/assets/js/jquery.waypoints.min.js?ver=2.5.7"></script>
@@ -52,7 +414,7 @@ var wpgmza_google_api_status = {"message":"Enqueued","code":"ENQUEUED"};
                 window.lsow_fs = {can_use_premium_code: false};
             })();
         </script>
-                    <style type="text/css"></style>		<style type="text/css"></style>
+                    <style type="text/css"></style>		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 		                <style type="text/css" media="all" id="siteorigin-panels-layouts-head">/* Layout 17 */ #pgc-17-0-0 , #pgc-17-1-0 { width:100%;width:calc(100% - ( 0 * 30px ) ) } #pl-17 #panel-17-0-0-0 , #pl-17 #panel-17-0-0-1 , #pl-17 #panel-17-1-0-0 , #pl-17 #panel-17-1-0-1 {  } #pg-17-0 , #pg-17-1 , #pl-17 .so-panel:last-child { margin-bottom:0px } #pl-17 .so-panel { margin-bottom:30px } #pg-17-0> .panel-row-style { background-image:url(http://pef.neesuff.com/wp-content/uploads/2020/01/bg-sobre.png);background-position:center center;background-size:cover;padding:20px 50px 20px 50px } #pg-17-0.panel-no-style, #pg-17-0.panel-has-style > .panel-row-style , #pg-17-1.panel-no-style, #pg-17-1.panel-has-style > .panel-row-style { -webkit-align-items:flex-start;align-items:flex-start } #pgc-17-0-0 { align-self:auto } #panel-17-0-0-0> .panel-widget-style { padding:15px 30px 15px 30px;color:#fff } #pg-17-1> .panel-row-style { background-image:url(http://pef.neesuff.com/wp-content/uploads/2020/01/bg-blue.png);background-repeat:repeat;padding:20px 50px 20px 50px } @media (max-width:780px){ #pg-17-0.panel-no-style, #pg-17-0.panel-has-style > .panel-row-style , #pg-17-1.panel-no-style, #pg-17-1.panel-has-style > .panel-row-style { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-17-0 > .panel-grid-cell , #pg-17-0 > .panel-row-style > .panel-grid-cell , #pg-17-1 > .panel-grid-cell , #pg-17-1 > .panel-row-style > .panel-grid-cell { width:100%;margin-right:0 } #pl-17 .panel-grid-cell { padding:0 } #pl-17 .panel-grid .panel-grid-cell-empty { display:none } #pl-17 .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px }  } </style>		<style type="text/css" id="wp-custom-css">
 			.navbar .container{
 	vertical-align:top  !important;
@@ -92,8 +454,8 @@ var wpgmza_google_api_status = {"message":"Enqueued","code":"ENQUEUED"};
 		</style>
 		</head>
 
-<body style="width: 100%; height: 100%;" class="home page-template-default page page-id-17 wp-custom-logo siteorigin-panels  siteorigin-panels-home blog-post header-layout-default" data-aos-easing="ease" data-aos-duration="900" data-aos-delay="300">
-	<div style="width: 100%; height: 100%;" class="wrapper ">
+<body class="home page-template-default page page-id-17 wp-custom-logo siteorigin-panels  siteorigin-panels-home blog-post header-layout-default" data-aos-easing="ease" data-aos-duration="900" data-aos-delay="300">
+	<div class="wrapper ">
 		<header class="header header-with-topbar">
 			<div class="hestia-top-bar">		<div class="container">
 			<div class="row">
@@ -109,7 +471,7 @@ var wpgmza_google_api_status = {"message":"Enqueued","code":"ENQUEUED"};
 									</div>
 			</div><!-- /.row -->
 		</div><!-- /.container -->
-		</div><div style="display: none" wfd-invisible="true"></div>		<nav class="navbar navbar-default navbar-fixed-top  navbar-color-on-scroll navbar-transparent hestia_left header-with-topbar">
+		</div><div style="display: none" wfd-invisible="true"></div>		<nav class="navbar navbar-default navbar-fixed-top  navbar-color-on-scroll hestia_left header-with-topbar navbar-transparent">
 						<div class="container">
 						<div class="navbar-header">
 			<div class="title-logo-wrapper">
@@ -125,18 +487,18 @@ var wpgmza_google_api_status = {"message":"Enqueued","code":"ENQUEUED"};
 			</button>
 					</div>
 				</div>
-		<div id="main-navigation" class="collapse navbar-collapse"><ul id="menu-primary-menu" class="nav navbar-nav"><li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-17 current_page_item menu-item-26 active"><a title="Home" href="http://pef.neesuff.com/" style="color: black;">Home</a></li>
-<li id="menu-item-124" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-124 dropdown"><a title="O Projeto" href="#" class="dropdown-toggle" style="color: black;">O Projeto <span class="caret-wrap"><span class="caret"></span></span></a>
+		<div id="main-navigation" class="collapse navbar-collapse"><ul id="menu-primary-menu" class="nav navbar-nav"><li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-17 current_page_item menu-item-26 active"><a title="Home" href="http://pef.neesuff.com/">Home</a></li>
+<li id="menu-item-124" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-124 dropdown"><a title="O Projeto" href="#" class="dropdown-toggle">O Projeto <span class="caret-wrap"><span class="caret"></span></span></a>
 <ul role="menu" class="dropdown-menu">
-	<li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a title="Sobre" href="http://pef.neesuff.com/sobre-o-programa/" style="color: black;">Sobre</a></li>
-	<li id="menu-item-235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-235"><a title="Equipe" href="http://pef.neesuff.com/equipe/" style="color: black;">Equipe</a></li>
-	<li id="menu-item-206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-206"><a title="Parceiros" href="http://pef.neesuff.com/parceiros/" style="color: black;">Parceiros</a></li>
+	<li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a title="Sobre" href="http://pef.neesuff.com/sobre-o-programa/">Sobre</a></li>
+	<li id="menu-item-235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-235"><a title="Equipe" href="http://pef.neesuff.com/equipe/">Equipe</a></li>
+	<li id="menu-item-206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-206"><a title="Parceiros" href="http://pef.neesuff.com/parceiros/">Parceiros</a></li>
 </ul>
 </li>
-<li id="menu-item-314" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-314"><a title="Cursos" href="http://pef.neesuff.com/cursos/" style="color: black;">Cursos</a></li>
-<li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a title="Acompanhe" href="http://pef.neesuff.com/blog/" style="color: black;">Acompanhe</a></li>
-<li id="menu-item-257" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-257"><a title="Contato" href="http://pef.neesuff.com/contato/" style="color: black;">Contato</a></li>
-<li id="menu-item-399" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-399"><a title="Acesse o Seu Curso" href="http://virtualead.com.br/autenticacao" style="color: black;">Acesse o Seu Curso</a></li>
+<li id="menu-item-314" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-314"><a title="Cursos" href="http://pef.neesuff.com/cursos/">Cursos</a></li>
+<li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a title="Acompanhe" href="http://pef.neesuff.com/blog/">Acompanhe</a></li>
+<li id="menu-item-257" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-257"><a title="Contato" href="http://pef.neesuff.com/contato/">Contato</a></li>
+<li id="menu-item-399" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-399"><a title="Acesse o Seu Curso" href="http://virtualead.com.br/autenticacao">Acesse o Seu Curso</a></li>
 </ul></div>			</div>
 					</nav>
 				</header>
@@ -145,7 +507,7 @@ var wpgmza_google_api_status = {"message":"Enqueued","code":"ENQUEUED"};
 				<div class="carousel-inner">
 					
 			<div class="item item-1 active">
-				<div class="page-header" style="min-height: 843.3px;">
+				<div class="page-header" style="min-height: 799.2px;">
 										<div class="container" style="padding-top: 130px;">
 												<div class="row">
 														<div class=" big-title-slider-content text-center col-sm-8 col-sm-offset-2 ">
@@ -162,20 +524,7 @@ var wpgmza_google_api_status = {"message":"Enqueued","code":"ENQUEUED"};
 			</div>
 		</div>
 			<div class="main  main-raised ">
-					<section font-size: 14px;
-                    -webkit-font-smoothing: antialiased;
-                    font-weight: 300;
-                    line-height: 1.618;
-                    color: #3C4858;
-                    font-family: Roboto;
-                    direction: ltr;
-                    box-sizing: border-box;
-                    -webkit-tap-highlight-color: transparent;
-                    position: relative;
-                    background: #fff;
-                    margin: -60px 30px 0;
-                    border-radius: 6px 6px 0 0;
-                    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14),0 6px 30px 5px rgba(0,0,0,0.12),0 8px 10px -5px rgba(0,0,0,0.2);class="hestia-about section-image" id="about" data-sorder="hestia_about" style="background-image: url('http://pef.neesuff.com/wp-content/uploads/2019/10/Fundo-sobre.jpg');">
+					<section class="hestia-about section-image" id="about" data-sorder="hestia_about" style="background-image: url('http://pef.neesuff.com/wp-content/uploads/2019/10/Fundo-sobre.jpg');">
 								<div class="container">
 					<div class="row hestia-about-content">
 						<div id="pl-17" class="panel-layout"><div id="pg-17-0" class="panel-grid panel-has-style"><div class="lsow-dark-bg panel-row-style panel-row-style-for-17-0"><div id="pgc-17-0-0" class="panel-grid-cell"><div id="panel-17-0-0-0" class="so-panel widget widget_sow-editor panel-first-child" data-index="0"><div class="panel-widget-style panel-widget-style-for-17-0-0-0"><div class="so-widget-sow-editor so-widget-sow-editor-base">
@@ -199,24 +548,14 @@ var wpgmza_google_api_status = {"message":"Enqueued","code":"ENQUEUED"};
 					<h6 class="sow-sub-headline">Você já pode realizar a sua pré-inscrição para os nossos cursos!</h6></div></div></div><div id="panel-17-1-0-1" class="so-panel widget widget_lsow-button panel-last-child" data-index="3"><div class="so-widget-lsow-button so-widget-lsow-button-default-58a0933ec87d"><div class="lsow-button-wrap" style="clear: both; text-align:center;"><a class="lsow-button  lsow-blue lsow-medium" href="https://www.virtualead.com.br/matricula1/?p=48" target="&quot;_blank&quot;">Faça a sua Pré Inscrição</a></div></div></div></div></div></div></div>					</div>
 				</div>
 			</section>
-					<section class="hestia-blogs " style="font-size: 14px;
-                    -webkit-font-smoothing: antialiased;
-                    font-weight: 300;
-                    line-height: 1.618;
-                    color: #3C4858;
-                    font-family: Roboto;
-                    direction: ltr;
-                    box-sizing: border-box;
-                    -webkit-tap-highlight-color: transparent;
-                    display: block;
-                    padding: 30px 0 65px;" id="blog" data-sorder="hestia_blog">
+					<section class="hestia-blogs " id="blog" data-sorder="hestia_blog">
 						<div class="container">
 									<div class="row">
 						<div class="col-md-8 col-md-offset-2 text-center hestia-blogs-title-area">
 							<h2 class="hestia-title">Acompanhe o Projeto</h2><h5 class="description">Fique por dentro de tudo o que acontece no PEF</h5>						</div>
 					</div>
 									<div class="hestia-blog-content">
-				<div class="row aos-init" data-aos="fade-up">			<article class="col-xs-12 col-ms-10 col-ms-offset-1 col-sm-8 col-sm-offset-2 col-md-4 hestia-blog-item">
+				<div class="row aos-init aos-animate" data-aos="fade-up">			<article class="col-xs-12 col-ms-10 col-ms-offset-1 col-sm-8 col-sm-offset-2 col-md-4 hestia-blog-item">
 				<div class="card card-plain card-blog">
 												<div class="card-image">
 								<a href="http://pef.neesuff.com/2020/03/08/mulheres-quilombolas-que-representam-a-garra-feminina/" title="Mulheres Quilombolas que Representam a Garra Feminina">
@@ -264,7 +603,7 @@ var wpgmza_google_api_status = {"message":"Enqueued","code":"ENQUEUED"};
 					</div>
 				</div>
 				</article>
-				</div><!-- /.row --><div class="row aos-init" data-aos="fade-up"></div>				</div>
+				</div><!-- /.row --><div class="row aos-init aos-animate" data-aos="fade-up"></div>				</div>
 							</div>
 					</section>
 				<section class="hestia-contact contactus section-image" id="contact" data-sorder="hestia_contact" style="background-image: url(http://pef.neesuff.com/wp-content/uploads/2019/10/bg-blue.png);">
@@ -285,7 +624,7 @@ var wpgmza_google_api_status = {"message":"Enqueued","code":"ENQUEUED"};
 										<h4 class="card-title">Contate-nos</h4>
 									</div>
 																<div class="content">
-									<div class="wpforms-container wpforms-container-full" id="wpforms-94"><form id="wpforms-form-94" class="wpforms-validate wpforms-form form-group" data-formid="94" method="post" enctype="multipart/form-data" action="/" novalidate="novalidate"><div class="wpforms-field-container"><div id="wpforms-94-field_0-container" class="wpforms-field wpforms-field-name form-group" data-field-id="0"><label class="wpforms-field-label" for="wpforms-94-field_0">Nome <span class="wpforms-required-label">*</span></label><input type="text" id="wpforms-94-field_0" class="wpforms-field-medium wpforms-field-required form-control" name="wpforms[fields][0]" required=""></div><div id="wpforms-94-field_1-container" class="wpforms-field wpforms-field-email form-group" data-field-id="1"><label class="wpforms-field-label" for="wpforms-94-field_1">Email <span class="wpforms-required-label">*</span></label><input type="email" id="wpforms-94-field_1" class="wpforms-field-medium wpforms-field-required form-control" name="wpforms[fields][1]" required=""></div><div id="wpforms-94-field_2-container" class="wpforms-field wpforms-field-textarea form-group" data-field-id="2"><label class="wpforms-field-label" for="wpforms-94-field_2">Mensagem <span class="wpforms-required-label">*</span></label><textarea id="wpforms-94-field_2" class="wpforms-field-medium wpforms-field-required form-control" name="wpforms[fields][2]" required=""></textarea></div></div><div class="wpforms-field wpforms-field-hp form-group" wfd-invisible="true"><label for="wpforms-94-field-hp" class="wpforms-field-label">Website</label><input type="text" name="wpforms[hp]" id="wpforms-94-field-hp" class="wpforms-field-medium form-control"></div><div class="wpforms-submit-container"><input type="hidden" name="wpforms[id]" value="94"><input type="hidden" name="wpforms[author]" value="1"><input type="hidden" name="wpforms[post_id]" value="17"><button type="submit" name="wpforms[submit]" class="wpforms-submit " id="wpforms-submit-94" value="wpforms-submit" aria-live="assertive" data-alt-text="Sending..." data-submit-text="Submit">Submit</button></div></form></div>  <!-- .wpforms-container -->								</div>
+									<div class="wpforms-container wpforms-container-full" id="wpforms-94"><form id="wpforms-form-94" class="wpforms-validate wpforms-form form-group" data-formid="94" method="post" enctype="multipart/form-data" action="/" novalidate="novalidate"><div class="wpforms-field-container"><div id="wpforms-94-field_0-container" class="wpforms-field wpforms-field-name form-group" data-field-id="0"><label class="wpforms-field-label" for="wpforms-94-field_0">Nome <span class="wpforms-required-label">*</span></label><input type="text" id="wpforms-94-field_0" class="wpforms-field-medium wpforms-field-required form-control" name="wpforms[fields][0]" required=""></div><div id="wpforms-94-field_1-container" class="wpforms-field wpforms-field-email form-group" data-field-id="1"><label class="wpforms-field-label" for="wpforms-94-field_1">Email <span class="wpforms-required-label">*</span></label><input type="email" id="wpforms-94-field_1" class="wpforms-field-medium wpforms-field-required form-control" name="wpforms[fields][1]" required=""></div><div id="wpforms-94-field_2-container" class="wpforms-field wpforms-field-textarea form-group" data-field-id="2"><label class="wpforms-field-label" for="wpforms-94-field_2">Mensagem <span class="wpforms-required-label">*</span></label><textarea id="wpforms-94-field_2" class="wpforms-field-medium wpforms-field-required form-control" name="wpforms[fields][2]" required=""></textarea></div></div><div class="wpforms-field wpforms-field-hp form-group" wfd-invisible="true"><label for="wpforms-94-field-hp" class="wpforms-field-label">Phone</label><input type="text" name="wpforms[hp]" id="wpforms-94-field-hp" class="wpforms-field-medium form-control"></div><div class="wpforms-submit-container"><input type="hidden" name="wpforms[id]" value="94"><input type="hidden" name="wpforms[author]" value="1"><input type="hidden" name="wpforms[post_id]" value="17"><button type="submit" name="wpforms[submit]" class="wpforms-submit " id="wpforms-submit-94" value="wpforms-submit" aria-live="assertive" data-alt-text="Sending..." data-submit-text="Submit">Submit</button></div></form></div>  <!-- .wpforms-container -->								</div>
 							</div>
 						</div>
 										</div>
@@ -327,9 +666,10 @@ var wpgmza_google_api_status = {"message":"Enqueued","code":"ENQUEUED"};
 					</footer>
 				</div>
 	</div>
-                <style type="text/css" media="all" id="siteorigin-panels-layouts-footer" wfd-invisible="true">/* Layout w5daf2333a7b45 */ #pgc-w5daf2333a7b45-0-0 , #pgc-w5daf2333a7b45-0-1 { width:25%;width:calc(25% - ( 0.75 * 30px ) ) } #pl-w5daf2333a7b45 #panel-w5daf2333a7b45-0-0-0 {  } #pgc-w5daf2333a7b45-0-2 { width:50%;width:calc(50% - ( 0.5 * 30px ) ) } #pl-w5daf2333a7b45 #panel-w5daf2333a7b45-0-2-0 { margin:0px 0px 0px 0px } #pg-w5daf2333a7b45-0 , #pl-w5daf2333a7b45 .so-panel:last-child { margin-bottom:0px } #pl-w5daf2333a7b45 .so-panel { margin-bottom:30px } #pg-w5daf2333a7b45-0.panel-no-style, #pg-w5daf2333a7b45-0.panel-has-style > .panel-row-style { -webkit-align-items:flex-start;align-items:flex-start } #pgc-w5daf2333a7b45-0-1 { align-self:auto } #panel-w5daf2333a7b45-0-2-0> .panel-widget-style { padding:2px 2px 2px 2px } @media (max-width:780px){ #pg-w5daf2333a7b45-0.panel-no-style, #pg-w5daf2333a7b45-0.panel-has-style > .panel-row-style { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-w5daf2333a7b45-0 > .panel-grid-cell , #pg-w5daf2333a7b45-0 > .panel-row-style > .panel-grid-cell { width:100%;margin-right:0 } #pgc-w5daf2333a7b45-0-0 , #pgc-w5daf2333a7b45-0-1 { margin-bottom:30px } #pl-w5daf2333a7b45 .panel-grid-cell { padding:0 } #pl-w5daf2333a7b45 .panel-grid .panel-grid-cell-empty { display:none } #pl-w5daf2333a7b45 .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px }  } </style>
-
-
+                <style type="text/css" media="all" id="siteorigin-panels-layouts-footer" wfd-invisible="true">/* Layout w5daf2333a7b45 */ #pgc-w5daf2333a7b45-0-0 , #pgc-w5daf2333a7b45-0-1 { width:25%;width:calc(25% - ( 0.75 * 30px ) ) } #pl-w5daf2333a7b45 #panel-w5daf2333a7b45-0-0-0 {  } #pgc-w5daf2333a7b45-0-2 { width:50%;width:calc(50% - ( 0.5 * 30px ) ) } #pl-w5daf2333a7b45 #panel-w5daf2333a7b45-0-2-0 { margin:0px 0px 0px 0px } #pg-w5daf2333a7b45-0 , #pl-w5daf2333a7b45 .so-panel:last-child { margin-bottom:0px } #pl-w5daf2333a7b45 .so-panel { margin-bottom:30px } #pg-w5daf2333a7b45-0.panel-no-style, #pg-w5daf2333a7b45-0.panel-has-style > .panel-row-style { -webkit-align-items:flex-start;align-items:flex-start } #pgc-w5daf2333a7b45-0-1 { align-self:auto } #panel-w5daf2333a7b45-0-2-0> .panel-widget-style { padding:2px 2px 2px 2px } @media (max-width:780px){ #pg-w5daf2333a7b45-0.panel-no-style, #pg-w5daf2333a7b45-0.panel-has-style > .panel-row-style { -webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column } #pg-w5daf2333a7b45-0 > .panel-grid-cell , #pg-w5daf2333a7b45-0 > .panel-row-style > .panel-grid-cell { width:100%;margin-right:0 } #pgc-w5daf2333a7b45-0-0 , #pgc-w5daf2333a7b45-0-1 { margin-bottom:30px } #pl-w5daf2333a7b45 .panel-grid-cell { padding:0 } #pl-w5daf2333a7b45 .panel-grid .panel-grid-cell-empty { display:none } #pl-w5daf2333a7b45 .panel-grid .panel-grid-cell-mobile-last { margin-bottom:0px }  } </style><link rel="stylesheet" id="so-css-hestia-pro-css" href="http://pef.neesuff.com/wp-content/uploads/so-css/so-css-hestia-pro.css?ver=1583519586" type="text/css" media="all" wfd-invisible="true">
+<link rel="stylesheet" id="sow-headline-default-a6db1497ad5d-css" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css" media="all" wfd-invisible="true">
+<link rel="stylesheet" id="sow-image-default-4b231843ec72-css" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css" media="all" wfd-invisible="true">
+<link rel="stylesheet" id="wpforms-full-css" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css" media="all" wfd-invisible="true">
 <script type="text/javascript" wfd-invisible="true">
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"http:\/\/pef.neesuff.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
