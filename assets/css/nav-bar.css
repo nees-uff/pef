@@ -1,0 +1,35 @@
+.navbar .container{
+	vertical-align:top  !important;
+	align-items: flex-start;
+	padding-top: 20px !important;
+}
+.navbar .navbar-toggle-wrapper{
+	align-items:flex-start;
+}
+.navbar #main-navigation{
+	margin-top:70px;
+}
+
+.navbar{
+	height:80px;
+	vertical-align: middle;
+}
+
+.navbar-brand img{
+	transition: width 2s,
+	max-height 0.3s;
+}
+.navbar-not-transparent .navbar-header .navbar-brand img {
+	max-height:150px !important;
+	margin-top:-40px;
+}
+.navbar-transparent .navbar-header .navbar-brand img {margin-top: -80px; max-height:300px!important;}
+
+.navbar-transparent{
+	background-color:#fff;
+}
+
+.navbar-not-transparent #main-navigation{ margin-top:0 !important;}
+.navbar-transparent #main-navigation{ margin-top:0 !important;}
+
+.footer-menu{ display: none;}

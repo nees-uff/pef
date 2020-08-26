@@ -1,0 +1,96 @@
+/*CODIGOS DE PAGINAS */
+
+.main-raised .blog-post .container {
+    width: 100%;
+    padding: 0
+}
+
+.list-nopadding-font li {
+    padding-top: 2px !important;
+    font-size: 12px !important;
+    list-style-type: disc;
+}
+
+.hestia-about {
+    padding: 0 !important;
+}
+
+.hestia-about .container {
+    width: 100% !important;
+    padding: 0 !important;
+}
+
+
+/*CODIGO PARA FAZER UM CARD DE UMA COLUNA NO LOYOUT BUILDER*/
+
+.cardlize {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cardlize .font12 p {
+    font-size: 12px !important
+}
+
+.cardilize .paddingalt {
+    padding: 3px 10px;
+    box-sizing: border-box;
+}
+
+.cardlize img {
+    border-radius: 5px 5px 0 0;
+}
+
+
+/* ESTILIZAR O WIDGET SERVICES PARA CARD */
+
+.lsow-service {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-height: 300px;
+}
+
+.lsow-image-wrapper img {
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.lsow-service-text .lsow-title {
+    padding-top: 5px;
+    margin-bottom: 10px !important;
+    min-height: 200px;
+    font-size: 12px !important;
+    line-height: 13px !important;
+    text-align: center;
+    letter-spacing: 0 !important;
+}
+
+.lsow-services .lsow-service .lsow-service-text {
+    font-size: 12px !important;
+    line-height: 20px !important;
+    text-align: center !important;
+}
+
+
+/*CONSERTAR MARGENS DE POST*/
+
+.single-post-wrap {
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
+/* ESTILOS PARA CARD DE CURSOS */
+
+.img-curso img {
+    border-radius: 5px 5px 0 0;
+}
+
+
+/*ESTILOS GERAIS/*
+/*Definir tamanho da fonte da legenda de imagem*/
+
+.wp-caption-text {
+    font-size: 11px !important;
+    margin-bottom: 0 !important;
+}
