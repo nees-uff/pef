@@ -1,0 +1,32 @@
+<div class="section related-posts">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="hestia-title text-center">Related Posts</h2>
+                <div class="row">
+                    {% for post in site.posts %}
+                    <div class="col-md-4">
+                        <div class="card card-blog">
+                            <div class="card-image">
+                                <a href="http://pef.neesuff.com/2020/03/08/simbolos-de-luta-mulheres-que-inspiram/" title="Símbolos de luta: mulheres que inspiram">
+                                    <img width="{{post.banner-width}}" height="{{post.banner-height}}" src="{{post.banner}}" class="attachment-hestia-blog size-hestia-blog wp-post-image" alt="" srcset="http://pef.neesuff.com/wp-content/uploads/2020/03/mulheres1-360x240.jpg 360w, http://pef.neesuff.com/wp-content/uploads/2020/03/mulheres1-272x182.jpg 272w"
+                                        sizes="(max-width: 360px) 100vw, 360px"> </a>
+                            </div>
+                            <div class="content">
+                                <h6 class="category text-info"><a href="http://pef.neesuff.com/category/dia-da-mulher/" title="View all posts in Dia da Mulher">{{post.title}}</a> </h6>
+                                <h4 class="card-title">
+                                    <a class="blog-item-title-link" href="http://pef.neesuff.com/2020/03/08/simbolos-de-luta-mulheres-que-inspiram/" title="Símbolos de luta: mulheres que inspiram" rel="bookmark">{{post.subtitle}}</a>
+                                </h4>
+                                <p class="card-description">{{post.description}}
+                                    <a class="moretag" href="{{post.url}}"> Read more…</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

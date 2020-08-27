@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: layout-post
 title:  "title"
 date:   2020-08-26 13:15:51 -0300
 categories: jekyll update
@@ -7,8 +7,11 @@ description: "descrição do post"
 subtitle: "subtitulo do post"
 
 banner: '/assets/img/mulheres2-360x240.jpg'
-banner-width: '360'
-banner-height: '240'
+banner-width: ''
+banner-height: ''
+inner-subtitles: 
+  - "inner-subtitle1"
+  - "inner-subtitle2"
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
