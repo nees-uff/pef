@@ -75,23 +75,27 @@
             <div class="hestia-blog-content">
                 <div class="row aos-init aos-animate" data-aos="fade-up">
                     {% for post in site.posts %}
-                    <article class="col-xs-12 col-ms-10 col-ms-offset-1 col-sm-8 col-sm-offset-2 col-md-4 hestia-blog-item">
+
+                    <article style="height: 470px; float: left; width: 33%;padding: 20px;">
                         <div class="card card-plain card-blog">
                             <div class="card-image">
-                                <a href="{{post.url}}" title="{{post.title}}">
-                                    <img width="{{post.banner-width}}" height="{{post.banner-height}}" src="{{post.banner}}" class="attachment-hestia-blog size-hestia-blog wp-post-image" alt="" srcset="http://pef.neesuff.com/wp-content/uploads/2020/03/mulheres2-360x240.jpg 360w, http://pef.neesuff.com/wp-content/uploads/2020/03/mulheres2-272x182.jpg 272w"
-                                        sizes="(max-width: 360px) 100vw, 360px"> </a>
+                                <a href="#" title={{post.title}}>
+                                    <img width="{{post.banner-width}}" height="{{post.banner-height}}" src="{{post.banner}}"> </a>
                             </div>
                             <div class="content">
-                                <h6 class="category"><a href="{{post.url}}" title="View all posts in Dia da Mulher" rel="tag">{{post.title}}</a> </h6>
+                                <h6 class="category">
+                                    <a href="http://pef.neesuff.com/category/dia-da-mulher/" title="View all posts in Dia da Mulher" rel="tag">{{post.title}}</a>
+                                </h6>
                                 <h4 class="card-title entry-title">
-                                    <a class="blog-item-title-link" href="{{post.title}}" title="{{post.subtitle}}" rel="bookmark">
-                                    {{post.subtitle}}</a>
+                                    <a class="blog-item-title-link" href="http://pef.neesuff.com/2020/03/08/mulheres-quilombolas-que-representam-a-garra-feminina/" title="Mulheres Quilombolas que Representam a Garra Feminina" rel="bookmark">{{post.subtitle}}</a>
                                 </h4>
-                                <p class="card-description">{{post.description}}<a class="moretag" href="{{post.url}}"> Read more…</a></p>
+                                <p class="card-description"> {{post.description}} <a class="moretag" href="{{post.url}}">
+                                            Read more…</a>
+                                </p>
                             </div>
                         </div>
                     </article>
+    
                     {% endfor %}
 
                 </div>
