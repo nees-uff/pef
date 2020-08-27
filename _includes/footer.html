@@ -1,19 +1,58 @@
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-    {% endif %}
+<div class="container">					
+  <div class="content">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="siteorigin-panels-builder-5" class="widget widget_siteorigin-panels-builder">
+          <div id="pl-w5daf2333a7b45" class="panel-layout">
+            <div id="pg-w5daf2333a7b45-0" class="panel-grid panel-no-style">
+              <div id="pgc-w5daf2333a7b45-0-0" class="panel-grid-cell">
+                <div id="panel-w5daf2333a7b45-0-0-0" class="so-panel widget widget_sow-headline panel-first-child panel-last-child" data-index="0">
+                  <div class="so-widget-sow-headline so-widget-sow-headline-default-a6db1497ad5d">
+                    <div class="sow-headline-container ">
+                      <h5 class="sow-headline">Sobre</h5>				
+                      	<div class="decoration">
+                         <div class="decoration-inside"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="pgc-w5daf2333a7b45-0-1" class="panel-grid-cell panel-grid-cell-empty"></div>
+                <div id="pgc-w5daf2333a7b45-0-2" class="panel-grid-cell">
+                  <div id="panel-w5daf2333a7b45-0-2-0" class="so-panel widget widget_sow-image panel-first-child panel-last-child" data-index="1">
+                    <div class="panel-widget-style panel-widget-style-for-w5daf2333a7b45-0-2-0">
+                      <div class="so-widget-sow-image so-widget-sow-image-default-4b231843ec72">
+                        <div class="sow-image-container">
+                          <img src="http://pef.neesuff.com/wp-content/uploads/2019/10/todos-logos-rodape-hd.png" width="1000" height="250" srcset="http://pef.neesuff.com/wp-content/uploads/2019/10/todos-logos-rodape-hd.png 1000w, http://pef.neesuff.com/wp-content/uploads/2019/10/todos-logos-rodape-hd-300x75.png 300w, http://pef.neesuff.com/wp-content/uploads/2019/10/todos-logos-rodape-hd-768x192.png 768w" sizes="(max-width: 1000px) 100vw, 1000px" alt="" class="so-widget-image">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="hestia-bottom-footer-content">
+      <ul class="footer-menu hestia-center">
+        <li class="page_item page-item-248"><a href="http://pef.neesuff.com/beneficios/">Benefícios</a></li>
+        <li class="page_item page-item-18"><a href="http://pef.neesuff.com/blog/">Blog</a></li>
+        <li class="page_item page-item-252"><a href="http://pef.neesuff.com/contato/">Contato</a></li>
+        <li class="page_item page-item-279"><a href="http://pef.neesuff.com/curso/">Curso</a></li>
+        <li class="page_item page-item-266 current_page_item"><a href="http://pef.neesuff.com/cursos/" aria-current="page">Cursos</a></li>
+        <li class="page_item page-item-216"><a href="http://pef.neesuff.com/equipe/">Equipe</a></li>
+        <li class="page_item page-item-17"><a href="http://pef.neesuff.com/">Home</a></li>
+        <li class="page_item page-item-406"><a href="http://pef.neesuff.com/noticias/">Notícias</a></li>
+        <li class="page_item page-item-196"><a href="http://pef.neesuff.com/parceiros/">Parceiros</a></li>
+        <li class="page_item page-item-413"><a href="http://pef.neesuff.com/dia-da-mulher/">PEF – Dia Da Mulher</a></li>
+        <li class="page_item page-item-102"><a href="http://pef.neesuff.com/sobre-o-programa/">Sobre o Programa</a></li>
+      </ul>
+      <div class="copyright hestia-center">
+          &copy; 2019-{{ site.time | date: '%Y' }} {{ site.name | default: site.title }} - Todos os Direitos Reservados
+      </div>
+    </div>
+  </div>
 
-    {% if site.footer.links %}
-      {% for link in site.footer.links %}
-        {% if link.label and link.url %}
-          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-
-    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
-  </ul>
-</div>
-
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>

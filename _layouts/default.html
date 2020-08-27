@@ -14,12 +14,34 @@
     {% include head/custom.html %}
   </head>
 
-  <body class="width:100%;position:absolute;left:0px; top:0px;padding-right:0px;" class="home page-template-default page page-id-17 wp-custom-logo siteorigin-panels  siteorigin-panels-home blog-post header-layout-default" data-aos-easing="ease" data-aos-duration="900" data-aos-delay="300">
+  <body class="width:100%;position:absolute;left:0px; top:0px;padding-right:0px;" class="home page-template-default wp-custom-logo siteorigin-panels  siteorigin-panels-home blog-post header-layout-default" data-aos-easing="ease" data-aos-duration="900" data-aos-delay="300">
     {% include_cached skip-links.html %}
     {% include_cached browser-upgrade.html %}
-    <div class="wrapper">
+    <div class="wrapper default">
       {% include_cached masthead.html %}
-      {{ content }}
+      <div id="primary" class="boxed-layout-header page-header header-small" data-parallax="active" style="transform: translate3d(0px, 53px, 0px);">
+        <div class="container" style="padding-top: 180px;">
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1 text-center">
+              <h1 class="hestia-title ">Cursos</h1>
+            </div>
+          </div>
+        </div>
+        <div class="header-filter" style="background-image: url(http://pef.neesuff.com/wp-content/uploads/2020/01/neutra-vinho.png);"></div>
+      </div>
+      <div class="main main-raised">
+        <div class="blog-post">
+          <div class="container">
+            {{content}}
+          </div>
+        </div>
+
+        <footer class="footer footer-black footer-big">
+          {% include footer/custom.html %}
+          {% include_cached footer.html %}
+        </footer>
+
+      </div>
     </div>
 
     <!-- {% if site.search == true %}
@@ -28,12 +50,9 @@
       </div>
     {% endif %} -->
 
-    <div id="footer" class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include_cached footer.html %}
-      </footer>
-    </div>
+    <!-- <div id="footer" class="page__footer">
+     
+    </div> -->
 
     {% include scripts.html %}
 
