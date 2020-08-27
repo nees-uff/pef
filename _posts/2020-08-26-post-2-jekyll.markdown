@@ -6,33 +6,11 @@ categories: jekyll update
 description: "descrição do post"
 subtitle: "subtitulo do post"
 
-banner: '/assets/img/mulheres2-360x240.jpg'
-banner-width: '360'
-banner-height: '240'
+banner: '/assets/img/mulheres2.jpg'
+banner-width: '1920'
+banner-height: '1080'
 inner-subtitles: 
-  - "inner-subtitle1"
-  - "inner-subtitle2"
+  - "array-subtitle1"
+  - "array-subtitle2"
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-Jekyll requires blog post files to be named according to the following format:
-
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt veritatis nam optio temporibus necessitatibus iure omnis assumenda nihil odio, ipsa error consequatur. Quaerat, dolor pariatur! Veniam porro natus tempora ratione commodi. Quasi magnam libero cum? At inventore consectetur odio iste sapiente cupiditate tempora qui minima illo quod placeat expedita dicta voluptatum, debitis voluptatibus fugiat, provident dolor beatae nostrum sit numquam hic a? Odit at accusantium impedit ducimus molestias inventore nam distinctio cumque animi illum hic numquam asperiores magnam dolores vel natus accusamus aut, nostrum nihil enim nisi optio. Natus quisquam cumque quasi quas nostrum nemo dolor porro magni eum id?
