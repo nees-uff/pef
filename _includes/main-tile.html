@@ -79,15 +79,15 @@
                     <article style="height: 470px; float: left; width: 33%;padding: 20px;">
                         <div class="card card-plain card-blog">
                             <div class="card-image">
-                                <a href="#" title={{post.title}}>
+                                <a href="{{post.url}}" title={{post.title}}>
                                     <img width="{{post.banner-width}}" height="{{post.banner-height}}" src="{{post.banner}}"> </a>
                             </div>
                             <div class="content">
                                 <h6 class="category">
-                                    <a href="http://pef.neesuff.com/category/dia-da-mulher/" title="View all posts in Dia da Mulher" rel="tag">{{post.title}}</a>
+                                    <a href="{{post.url}}" title="{{post.title}}" rel="tag">{{post.title}}</a>
                                 </h6>
                                 <h4 class="card-title entry-title">
-                                    <a class="blog-item-title-link" href="http://pef.neesuff.com/2020/03/08/mulheres-quilombolas-que-representam-a-garra-feminina/" title="Mulheres Quilombolas que Representam a Garra Feminina" rel="bookmark">{{post.subtitle}}</a>
+                                    <a class="blog-item-title-link" href="{{post.url}}" title="Mulheres Quilombolas que Representam a Garra Feminina" rel="bookmark">{{post.subtitle}}</a>
                                 </h4>
                                 <p class="card-description"> {{post.description}} <a class="moretag" href="{{post.url}}">
                                             Read more…</a>
@@ -95,7 +95,7 @@
                             </div>
                         </div>
                     </article>
-    
+
                     {% endfor %}
 
                 </div>
