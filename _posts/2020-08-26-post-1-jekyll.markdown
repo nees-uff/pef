@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title:  "title"
 date:   2020-08-26 13:15:51 -0300
 categories: jekyll update
