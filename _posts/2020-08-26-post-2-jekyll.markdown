@@ -6,7 +6,7 @@ categories: jekyll update
 description: "descrição do post"
 subtitle: "subtitulo do post"
 
-banner: '/assets/img/mulheres2-360x240.jpg'
+banner: '/assets/img/mulheres1-360x240.jpg'
 banner-width: '360'
 banner-height: '240'
 inner-subtitles: 
