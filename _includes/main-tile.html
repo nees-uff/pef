@@ -65,47 +65,36 @@
         </div>
     </section>
     <section class="hestia-blogs " id="blog" data-sorder="hestia_blog">
-        <div style="display: flex;top:-100px" class="container">
-            <div style="-webkit-box-direction: normal;
-            width: 100%;
-            height: 100%;
-            user-select: none;
-            text-align: center;
-            font-size: 14px;
-            -webkit-font-smoothing: antialiased;
-            font-weight: 300;
-            line-height: 1.618;
-            color: #3C4858;
-            font-family: Roboto;
-            direction: ltr;
-            box-sizing: border-box;
-            -webkit-tap-highlight-color: transparent;">
-
-                {% for post in site.posts %}
-
-                <article style="height: 470px;">
-                    <div class="card card-plain card-blog">
-                        <div class="card-image">
-                            <a href="#" title={{post.title}}>
-                                <img width="{{post.banner-width}}" height="{{post.banner-height}}" src="{{post.banner}}"> </a>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center hestia-blogs-title-area">
+                    <h2 class="hestia-title">Acompanhe o Projeto</h2>
+                    <h5 class="description">Fique por dentro de tudo o que acontece no PEF</h5>
+                </div>
+            </div>
+            <div class="hestia-blog-content">
+                <div class="row aos-init aos-animate" data-aos="fade-up">
+                    {% for post in site.posts %}
+                    <article class="col-xs-12 col-ms-10 col-ms-offset-1 col-sm-8 col-sm-offset-2 col-md-4 hestia-blog-item">
+                        <div class="card card-plain card-blog">
+                            <div class="card-image">
+                                <a href="{{post.url}}" title="{{post.title}}">
+                                    <img width="{{post.banner-width}}" height="{{post.banner-height}}" src="{{post.banner}}" class="attachment-hestia-blog size-hestia-blog wp-post-image" alt="" srcset="http://pef.neesuff.com/wp-content/uploads/2020/03/mulheres2-360x240.jpg 360w, http://pef.neesuff.com/wp-content/uploads/2020/03/mulheres2-272x182.jpg 272w"
+                                        sizes="(max-width: 360px) 100vw, 360px"> </a>
+                            </div>
+                            <div class="content">
+                                <h6 class="category"><a href="{{post.url}}" title="View all posts in Dia da Mulher" rel="tag">{{post.title}}</a> </h6>
+                                <h4 class="card-title entry-title">
+                                    <a class="blog-item-title-link" href="{{post.title}}" title="{{post.subtitle}}" rel="bookmark">
+                                    {{post.subtitle}}</a>
+                                </h4>
+                                <p class="card-description">{{post.description}}<a class="moretag" href="{{post.url}}"> Read more…</a></p>
+                            </div>
                         </div>
-                        <div class="content">
-                            <h6 class="category">
-                                <a href="http://pef.neesuff.com/category/dia-da-mulher/" title="View all posts in Dia da Mulher" rel="tag">{{post.title}}</a>
-                            </h6>
-                            <h4 class="card-title entry-title">
-                                <a class="blog-item-title-link" href="http://pef.neesuff.com/2020/03/08/mulheres-quilombolas-que-representam-a-garra-feminina/" title="Mulheres Quilombolas que Representam a Garra Feminina" rel="bookmark">{{post.subtitle}}</a>
-                            </h4>
-                            <p class="card-description"> {{post.description}} <a class="moretag" href="{{post.url}}">
-                                        Read more…</a>
-                            </p>
-                        </div>
-                    </div>
-                </article>
+                    </article>
+                    {% endfor %}
 
-                {% endfor %}
-
-
+                </div>
                 <!-- /.row -->
                 <div class="row aos-init aos-animate" data-aos="fade-up"></div>
             </div>
