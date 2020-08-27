@@ -4,6 +4,13 @@ main:
     url: /
   - title: "O Projeto"
     url: /sobre/
+    children:
+      - title: Sobre
+        url: /sobre/
+      - title: Equipe
+        url: /equipe/
+      - title: Parceiros
+        url: /parceiros/ 
   - title: "Cursos"
     url: /cursos/
   - title: "Acompanhe"
