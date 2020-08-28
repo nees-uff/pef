@@ -75,7 +75,7 @@
             <div class="hestia-blog-content">
                 <div class="row aos-init aos-animate" data-aos="fade-up">
                     {% for post in site.posts %}
-
+                    {% if post.category=="home" %}
                     <article style="height: 470px; float: left; width: 33%;padding: 20px;">
                         <div class="card card-plain card-blog">
                             <div class="card-image">
@@ -95,7 +95,7 @@
                             </div>
                         </div>
                     </article>
-
+                    {% endif %}
                     {% endfor %}
 
                 </div>

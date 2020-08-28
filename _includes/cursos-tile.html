@@ -19,25 +19,26 @@
                                     </div>
                                     <div id="panel-266-0-0-1" class="so-panel widget widget_siteorigin-panels-builder panel-last-child" data-index="1">
                                         <div class="panel-widget-style panel-widget-style-for-266-0-0-1">
-                                            <!---GRID-->>
-                                            <!--LINHA 0-->>
-                                            <div id="pg-w5e1396e2cc597-0" class="panel-grid panel-no-style">
-                                                <div id="pgc-w5e1396e2cc597-0-0" class="panel-grid-cell">
-                                                    <div class="panel-cell-style panel-cell-style-for-w5e1396e2cc597-0-0">
-                                                        <div id="panel-w5e1396e2cc597-0-0-0" class="so-panel widget widget_media_image panel-first-child" data-index="0">
-                                                            <div class="img-curso panel-widget-style panel-widget-style-for-w5e1396e2cc597-0-0-0"><img width="300" height="169" src="http://pef.neesuff.com/wp-content/uploads/2019/11/Acesso-à-Crédito-e-Linhas-de-Fomento-300x169.png" class="image wp-image-285  attachment-medium size-medium"
-                                                                    alt="" style="max-width: 100%; height: auto;" srcset="http://pef.neesuff.com/wp-content/uploads/2019/11/Acesso-à-Crédito-e-Linhas-de-Fomento-300x169.png 300w, http://pef.neesuff.com/wp-content/uploads/2019/11/Acesso-à-Crédito-e-Linhas-de-Fomento-768x432.png 768w, http://pef.neesuff.com/wp-content/uploads/2019/11/Acesso-à-Crédito-e-Linhas-de-Fomento-1024x576.png 1024w"
-                                                                    sizes="(max-width: 300px) 100vw, 300px"></div>
+                                            <!---GRID-->
+                                            <!--LINHA 0-->
+                                            {% for post in site.posts %}
+                                            {% if post.category=="cursos" %}
+                                            <div id="pg-w5e1396e2cc597-0" class="panel-grid panel-no-style" style=" float: left; width: 33%;padding: 20px;">
+                                                
+                                                <div  id="pgc-w5e1396e2cc597-0-0" class="panel-grid-cell" >
+                                                    <div  class="panel-cell-style panel-cell-style-for-w5e1396e2cc597-0-0">
+                                                        <div   id="panel-w5e1396e2cc597-0-0-0" class="so-panel widget widget_media_image panel-first-child" data-index="0">
+                                                            <div  class="img-curso panel-widget-style panel-widget-style-for-w5e1396e2cc597-0-0-0"><img width="{{post.banner-width}}" height="{{post.banner-height}}" src="{{post.banner300x169}}" class="image wp-image-285  attachment-medium size-medium"
+                                                                    alt="" style="max-width: 100%; height: auto; align-items: center;display: block; margin-left: auto; margin-right: auto;" ></div> 
                                                         </div>
-                                                        <div id="panel-w5e1396e2cc597-0-0-1" class="widget_text so-panel widget widget_custom_html" data-index="1">
+                                                        <div style="align-items: center;" id="panel-w5e1396e2cc597-0-0-1" class="widget_text so-panel widget widget_custom_html" data-index="1">
                                                             <div class="widget_text panel-widget-style panel-widget-style-for-w5e1396e2cc597-0-0-1">
-                                                                <div class="textwidget custom-html-widget">
+                                                                <div class="textwidget custom-html-widget"style="padding: 15px;">
                                                                     <p style="font-size:12px; font-family: Montserrat, sans serif; font-weight: 700; text-align:center; line-height: 12px; margin-top: 5px;">
-                                                                        ACESSO À CRÉDITO E LINHAS DE FOMENTO
+                                                                        {{post.title}}
                                                                     </p>
                                                                     <p style="text-align:center; font-size:11px; font-family: Montserrat, sans serif;">
-
-                                                                    </p>
+                                                                        {{post.textdescription}}                                                                    </p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -50,157 +51,10 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div id="pgc-w5e1396e2cc597-0-1" class="panel-grid-cell">
-                                                    <div class="panel-cell-style panel-cell-style-for-w5e1396e2cc597-0-1">
-                                                        <div id="panel-w5e1396e2cc597-0-1-0" class="so-panel widget widget_media_image panel-first-child" data-index="3">
-                                                            <div class="img-curso panel-widget-style panel-widget-style-for-w5e1396e2cc597-0-1-0"><img width="300" height="169" src="http://pef.neesuff.com/wp-content/uploads/2019/11/agricultura-familiar-300x169.png" class="image wp-image-286  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;"
-                                                                    srcset="http://pef.neesuff.com/wp-content/uploads/2019/11/agricultura-familiar-300x169.png 300w, http://pef.neesuff.com/wp-content/uploads/2019/11/agricultura-familiar-768x432.png 768w, http://pef.neesuff.com/wp-content/uploads/2019/11/agricultura-familiar-1024x576.png 1024w"
-                                                                    sizes="(max-width: 300px) 100vw, 300px"></div>
-                                                        </div>
-                                                        <div id="panel-w5e1396e2cc597-0-1-1" class="widget_text so-panel widget widget_custom_html" data-index="4">
-                                                            <div class="widget_text panel-widget-style panel-widget-style-for-w5e1396e2cc597-0-1-1">
-                                                                <div class="textwidget custom-html-widget">
-                                                                    <p style="font-size:12px; font-family: Montserrat, sans serif; font-weight: 700; text-align:center; line-height: 12px; margin-top: 5px;">
-                                                                        AGRICULTURA FAMILIAR
-                                                                    </p>
-                                                                    <p style="text-align:center; font-size:11px; font-family: Montserrat, sans serif;">
-
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div id="panel-w5e1396e2cc597-0-1-2" class="so-panel widget widget_lsow-button panel-last-child" data-index="5">
-                                                            <div class="panel-widget-style panel-widget-style-for-w5e1396e2cc597-0-1-2">
-                                                                <div class="so-widget-lsow-button so-widget-lsow-button-default-a6a205999e5b">
-                                                                    <div class="lsow-button-wrap" style="clear: both; text-align:center;"><a class="lsow-button  lsow-custom lsow-medium" style="text-decoration: none; border-radius:5px;" data-color="#421112" data-hover-color="#820022" href="https://www.virtualead.com.br/matricula1/?p=48"
-                                                                            target="&quot;_blank&quot;">Faça sua Pré Inscrição</a></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div id="pgc-w5e1396e2cc597-0-2" class="panel-grid-cell">
-                                                    <div class="panel-cell-style panel-cell-style-for-w5e1396e2cc597-0-2">
-                                                        <div id="panel-w5e1396e2cc597-0-2-0" class="so-panel widget widget_media_image panel-first-child" data-index="6">
-                                                            <div class="img-curso panel-widget-style panel-widget-style-for-w5e1396e2cc597-0-2-0"><img width="300" height="169" src="http://pef.neesuff.com/wp-content/uploads/2019/11/Análise-e-Elaboração-de-Casos-Práticos-300x169.png" class="image wp-image-291  attachment-medium size-medium"
-                                                                    alt="" style="max-width: 100%; height: auto;" srcset="http://pef.neesuff.com/wp-content/uploads/2019/11/Análise-e-Elaboração-de-Casos-Práticos-300x169.png 300w, http://pef.neesuff.com/wp-content/uploads/2019/11/Análise-e-Elaboração-de-Casos-Práticos-768x432.png 768w, http://pef.neesuff.com/wp-content/uploads/2019/11/Análise-e-Elaboração-de-Casos-Práticos-1024x576.png 1024w"
-                                                                    sizes="(max-width: 300px) 100vw, 300px"></div>
-                                                        </div>
-                                                        <div id="panel-w5e1396e2cc597-0-2-1" class="widget_text so-panel widget widget_custom_html" data-index="7">
-                                                            <div class="widget_text panel-widget-style panel-widget-style-for-w5e1396e2cc597-0-2-1">
-                                                                <div class="textwidget custom-html-widget">
-                                                                    <p style="font-size:12px; font-family: Montserrat, sans serif; font-weight: 700; text-align:center; line-height: 12px; margin-top: 5px;">
-                                                                        ANÁLISE E ELABORAÇÃO DE CASOS PRÁTICOS
-                                                                    </p>
-                                                                    <p style="text-align:center; font-size:11px; font-family: Montserrat, sans serif;">
-
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div id="panel-w5e1396e2cc597-0-2-2" class="so-panel widget widget_lsow-button panel-last-child" data-index="8">
-                                                            <div class="panel-widget-style panel-widget-style-for-w5e1396e2cc597-0-2-2">
-                                                                <div class="so-widget-lsow-button so-widget-lsow-button-default-a6a205999e5b">
-                                                                    <div class="lsow-button-wrap" style="clear: both; text-align:center;"><a class="lsow-button  lsow-custom lsow-medium" style="text-decoration: none; border-radius:5px;" data-color="#421112" data-hover-color="#820022" href="https://www.virtualead.com.br/matricula1/?p=48"
-                                                                            target="&quot;_blank&quot;">Faça sua Pré Inscrição</a></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                </div> 
                                             </div>
-                                            <!--LINHA 1-->>
-                                            <div id="pg-w5e1396e2cc597-0" class="panel-grid panel-no-style">
-                                                <div id="pgc-w5e1396e2cc597-0-0" class="panel-grid-cell">
-                                                    <div class="panel-cell-style panel-cell-style-for-w5e1396e2cc597-0-0">
-                                                        <div id="panel-w5e1396e2cc597-0-0-0" class="so-panel widget widget_media_image panel-first-child" data-index="0">
-                                                            <div class="img-curso panel-widget-style panel-widget-style-for-w5e1396e2cc597-0-0-0"><img width="300" height="169" src="http://pef.neesuff.com/wp-content/uploads/2019/11/Acesso-à-Crédito-e-Linhas-de-Fomento-300x169.png" class="image wp-image-285  attachment-medium size-medium"
-                                                                    alt="" style="max-width: 100%; height: auto;" srcset="http://pef.neesuff.com/wp-content/uploads/2019/11/Acesso-à-Crédito-e-Linhas-de-Fomento-300x169.png 300w, http://pef.neesuff.com/wp-content/uploads/2019/11/Acesso-à-Crédito-e-Linhas-de-Fomento-768x432.png 768w, http://pef.neesuff.com/wp-content/uploads/2019/11/Acesso-à-Crédito-e-Linhas-de-Fomento-1024x576.png 1024w"
-                                                                    sizes="(max-width: 300px) 100vw, 300px"></div>
-                                                        </div>
-                                                        <div id="panel-w5e1396e2cc597-0-0-1" class="widget_text so-panel widget widget_custom_html" data-index="1">
-                                                            <div class="widget_text panel-widget-style panel-widget-style-for-w5e1396e2cc597-0-0-1">
-                                                                <div class="textwidget custom-html-widget">
-                                                                    <p style="font-size:12px; font-family: Montserrat, sans serif; font-weight: 700; text-align:center; line-height: 12px; margin-top: 5px;">
-                                                                        ACESSO À CRÉDITO E LINHAS DE FOMENTO
-                                                                    </p>
-                                                                    <p style="text-align:center; font-size:11px; font-family: Montserrat, sans serif;">
-
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div id="panel-w5e1396e2cc597-0-0-2" class="so-panel widget widget_lsow-button panel-last-child" data-index="2">
-                                                            <div class="panel-widget-style panel-widget-style-for-w5e1396e2cc597-0-0-2">
-                                                                <div class="so-widget-lsow-button so-widget-lsow-button-default-a6a205999e5b">
-                                                                    <div class="lsow-button-wrap" style="clear: both; text-align:center;"><a class="lsow-button  lsow-custom lsow-medium" style="text-decoration: none; border-radius:5px;" data-color="#421112" data-hover-color="#820022" href="https://www.virtualead.com.br/matricula1/?p=48"
-                                                                            target="&quot;_blank&quot;">Faça sua Pré Inscrição</a></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div id="pgc-w5e1396e2cc597-0-1" class="panel-grid-cell">
-                                                    <div class="panel-cell-style panel-cell-style-for-w5e1396e2cc597-0-1">
-                                                        <div id="panel-w5e1396e2cc597-0-1-0" class="so-panel widget widget_media_image panel-first-child" data-index="3">
-                                                            <div class="img-curso panel-widget-style panel-widget-style-for-w5e1396e2cc597-0-1-0"><img width="300" height="169" src="http://pef.neesuff.com/wp-content/uploads/2019/11/agricultura-familiar-300x169.png" class="image wp-image-286  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;"
-                                                                    srcset="http://pef.neesuff.com/wp-content/uploads/2019/11/agricultura-familiar-300x169.png 300w, http://pef.neesuff.com/wp-content/uploads/2019/11/agricultura-familiar-768x432.png 768w, http://pef.neesuff.com/wp-content/uploads/2019/11/agricultura-familiar-1024x576.png 1024w"
-                                                                    sizes="(max-width: 300px) 100vw, 300px"></div>
-                                                        </div>
-                                                        <div id="panel-w5e1396e2cc597-0-1-1" class="widget_text so-panel widget widget_custom_html" data-index="4">
-                                                            <div class="widget_text panel-widget-style panel-widget-style-for-w5e1396e2cc597-0-1-1">
-                                                                <div class="textwidget custom-html-widget">
-                                                                    <p style="font-size:12px; font-family: Montserrat, sans serif; font-weight: 700; text-align:center; line-height: 12px; margin-top: 5px;">
-                                                                        AGRICULTURA FAMILIAR
-                                                                    </p>
-                                                                    <p style="text-align:center; font-size:11px; font-family: Montserrat, sans serif;">
-
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div id="panel-w5e1396e2cc597-0-1-2" class="so-panel widget widget_lsow-button panel-last-child" data-index="5">
-                                                            <div class="panel-widget-style panel-widget-style-for-w5e1396e2cc597-0-1-2">
-                                                                <div class="so-widget-lsow-button so-widget-lsow-button-default-a6a205999e5b">
-                                                                    <div class="lsow-button-wrap" style="clear: both; text-align:center;"><a class="lsow-button  lsow-custom lsow-medium" style="text-decoration: none; border-radius:5px;" data-color="#421112" data-hover-color="#820022" href="https://www.virtualead.com.br/matricula1/?p=48"
-                                                                            target="&quot;_blank&quot;">Faça sua Pré Inscrição</a></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div id="pgc-w5e1396e2cc597-0-2" class="panel-grid-cell">
-                                                    <div class="panel-cell-style panel-cell-style-for-w5e1396e2cc597-0-2">
-                                                        <div id="panel-w5e1396e2cc597-0-2-0" class="so-panel widget widget_media_image panel-first-child" data-index="6">
-                                                            <div class="img-curso panel-widget-style panel-widget-style-for-w5e1396e2cc597-0-2-0"><img width="300" height="169" src="http://pef.neesuff.com/wp-content/uploads/2019/11/Análise-e-Elaboração-de-Casos-Práticos-300x169.png" class="image wp-image-291  attachment-medium size-medium"
-                                                                    alt="" style="max-width: 100%; height: auto;" srcset="http://pef.neesuff.com/wp-content/uploads/2019/11/Análise-e-Elaboração-de-Casos-Práticos-300x169.png 300w, http://pef.neesuff.com/wp-content/uploads/2019/11/Análise-e-Elaboração-de-Casos-Práticos-768x432.png 768w, http://pef.neesuff.com/wp-content/uploads/2019/11/Análise-e-Elaboração-de-Casos-Práticos-1024x576.png 1024w"
-                                                                    sizes="(max-width: 300px) 100vw, 300px"></div>
-                                                        </div>
-                                                        <div id="panel-w5e1396e2cc597-0-2-1" class="widget_text so-panel widget widget_custom_html" data-index="7">
-                                                            <div class="widget_text panel-widget-style panel-widget-style-for-w5e1396e2cc597-0-2-1">
-                                                                <div class="textwidget custom-html-widget">
-                                                                    <p style="font-size:12px; font-family: Montserrat, sans serif; font-weight: 700; text-align:center; line-height: 12px; margin-top: 5px;">
-                                                                        ANÁLISE E ELABORAÇÃO DE CASOS PRÁTICOS
-                                                                    </p>
-                                                                    <p style="text-align:center; font-size:11px; font-family: Montserrat, sans serif;">
-
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div id="panel-w5e1396e2cc597-0-2-2" class="so-panel widget widget_lsow-button panel-last-child" data-index="8">
-                                                            <div class="panel-widget-style panel-widget-style-for-w5e1396e2cc597-0-2-2">
-                                                                <div class="so-widget-lsow-button so-widget-lsow-button-default-a6a205999e5b">
-                                                                    <div class="lsow-button-wrap" style="clear: both; text-align:center;"><a class="lsow-button  lsow-custom lsow-medium" style="text-decoration: none; border-radius:5px;" data-color="#421112" data-hover-color="#820022" href="https://www.virtualead.com.br/matricula1/?p=48"
-                                                                            target="&quot;_blank&quot;">Faça sua Pré Inscrição</a></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
+                                            {% endif  %}
+                                            {% endfor %}
                                         </div>
                                     </div>
                                 </div>
