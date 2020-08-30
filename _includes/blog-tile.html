@@ -1,0 +1,70 @@
+<div class="main  main-raised ">
+    <div class="blog-post blog-post-wrapper">
+        <div class="container">
+            <article id="post-429" class="section section-text">
+                <div class="row">
+                    <div class="col-md-8 single-post-container" data-layout="sidebar-right">
+                        <div style="margin-left: 3%" class="single-post-wrap entry-content">
+                            <div id="pl-429" class="panel-layout">
+                                <div id="pg-429-0" class="panel-grid panel-has-style">
+                                    <div style="margin-left: 2%;" class="flex-row">
+                                        {% for post in site.posts %} {% if post.category=="home" %}
+                                        <article id="post-429" class="card card-blog card-plain post-429 post type-post status-publish format-standard has-post-thumbnail hentry category-dia-da-mulher category-noticias">
+                                            <div class="row ">
+                                                <div class="col-ms-5 col-sm-5">
+                                                    <div class="card-image">
+                                                        <a href="{{post.url}}" title="{{post.title}}"><img width="{{post.banner-width}}" height="{{post.banner-height}}" src="{{post.banner}}" class="attachment-hestia-blog size-hestia-blog wp-post-image" alt="" srcset="http://pef.neesuff.com/wp-content/uploads/2020/03/mulheres2-360x240.jpg 360w, http://pef.neesuff.com/wp-content/uploads/2020/03/mulheres2-272x182.jpg 272w"
+                                                                sizes="(max-width: 360px) 100vw, 360px"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-ms-7 col-sm-7">
+                                                    <h6 class="category text-info"><a href="{{post.url}}" title="{{post.title}}" rel="tag">{{post.title}}</a> </h6>
+                                                    <h2 class="card-title entry-title"><a href="{{post.url}}" title="{{post.subtitle}}" rel="bookmark">{{post.subtitle}}</a></h2>
+                                                    <div class="card-description entry-summary ">
+                                                        <p>{{post.description}}<a class="moretag" href="http://pef.neesuff.com/2020/03/08/mulheres-quilombolas-que-representam-a-garra-feminina/"> Read more…</a></p>
+                                                    </div>
+                                                    <div class="posted-by vcard author">By <a href="http://pef.neesuff.com/author/neesuff/" title="neesuff" class="url"><b class="author-name fn">{{post.author}}</b></a>,
+                                                        <a href="http://pef.neesuff.com/2020/03/08/mulheres-quilombolas-que-representam-a-garra-feminina/"><time class="entry-date published" datetime="2020-03-08T08:05:56-03:00" content="2020-03-08">{{post.date}}</time><time class="updated hestia-hidden" datetime="2020-03-07T01:19:59-03:00" wfd-invisible="true"></time></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </article>
+                                        {% endif %} {% endfor %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="margin-left: 2%;" class="section section-blog-info">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="entry-categories">Categoria: <span class="label label-primary"><a href="{{site.url}}/jekyll/update/{{page.category}}">{{page.category}}</a></span> </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="entry-social">
+                                        <a target="_blank" rel="tooltip" data-original-title="Share on Facebook" class="btn btn-just-icon btn-round btn-facebook" href="https://www.facebook.com/sharer.php?u=http://pef.neesuff.com/2020/03/08/mulheres-quilombolas-que-representam-a-garra-feminina/">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+
+                                        <a target="_blank" rel="tooltip" data-original-title="Share on Twitter" class="btn btn-just-icon btn-round btn-twitter" href="http://twitter.com/share?url=http://pef.neesuff.com/2020/03/08/mulheres-quilombolas-que-representam-a-garra-feminina/&amp;text=Mulheres%20Quilombolas%20que%20Representam%20a%20Garra%20Feminina">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+
+                                        <a rel="tooltip" data-original-title=" Share on Email" class="btn btn-just-icon btn-round" href="mailto:?subject=Mulheres%20Quilombolas%20que%20Representam%20a%20Garra%20Feminina&amp;body=http://pef.neesuff.com/2020/03/08/mulheres-quilombolas-que-representam-a-garra-feminina/">
+                                            <i class="fa fa-envelope"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                    {% include sidebar.html %}
+                </div>
+        </div>
+        </article>
+
+    </div>
+</div>
+</div>
