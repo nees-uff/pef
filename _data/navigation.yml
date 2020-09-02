@@ -14,7 +14,7 @@ main:
   - title: "Cursos"
     url: /cursos/
   - title: "Acompanhe"
-    url: /acompanhe/
+    url: /blog/
   - title: "Contato"
     url: /contato/
   - title: "Acesse o seu curso"

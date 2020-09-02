@@ -3,7 +3,7 @@ layout: layout-post
 title:  "post4"
 date:   2020-08-24 13:15:51 -0300
 categories: jekyll update
-description: "descrição do post"
+description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo repellendus veritatis repellat, expedita temporibus doloremque eius itaque"
 subtitle: "subtitulo do post"
 author: "John Doe"
 category: "home"
