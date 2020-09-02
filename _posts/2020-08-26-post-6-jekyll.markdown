@@ -1,3 +1,21 @@
+---
+layout: main-layout
+title:  "post3"
+date:   2020-08-21 13:15:51 -0300
+categories: jekyll update
+description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo repellendus veritatis repellat, expedita temporibus doloremque eius itaque"
+subtitle: "subtitulo do post"
+author: "John Doe"
+category: "home"
+
+banner: '/assets/img/mulheres2.jpg'
+banner-width: '1280'
+banner-height: '1020'
+inner-subtitles: 
+  - "inner-subtitle1"
+  - "inner-subtitle2"
+category: "home"
+---
 <div class="blog-post blog-post-wrapper">
     <div class="container">
         <article id="post-429" class="section section-text">
@@ -23,7 +41,10 @@
                                                 <div class="siteorigin-widget-tinymce textwidget">
                                                     <p><img src="http://pef.neesuff.com/wp-content/uploads/2020/03/BLOG01-Jane.jpg" alt="" width="483" height="604" class="wp-image-415 alignleft" srcset="http://pef.neesuff.com/wp-content/uploads/2020/03/BLOG01-Jane.jpg 672w, http://pef.neesuff.com/wp-content/uploads/2020/03/BLOG01-Jane-240x300.jpg 240w"
                                                             sizes="(max-width: 483px) 100vw, 483px"></p>
-                                                    {{content}}
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repudiandae soluta fugiat quaerat delectus distinctio ex doloremque provident amet dolorum sunt velit odio, ipsa tenetur ab optio officia debitis blanditiis eveniet ea quisquam quos aliquam.
+                                                    Et rem ullam nulla ducimus, adipisci incidunt accusantium, eos dolorem ipsam consequatur excepturi doloremque esse distinctio veritatis omnis vero natus non dignissimos, ea repellat animi beatae sed
+                                                    sequi delectus! Neque tempora sequi itaque doloremque quaerat. Temporibus cumque, qui ipsa quaerat quia consequatur iure ratione dolore unde placeat minima dicta dignissimos libero quae, magnam vel est
+                                                    doloremque ad amet ullam autem? Libero quidem officia voluptates odit.
                                                 </div>
                                             </div>
                                         </div>
@@ -40,7 +61,10 @@
                                         <div id="panel-429-0-0-3" class="so-panel widget widget_sow-editor" data-index="3">
                                             <div class="so-widget-sow-editor so-widget-sow-editor-base">
                                                 <div class="siteorigin-widget-tinymce textwidget">
-                                                    {{content}}
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim corrupti, incidunt cumque deserunt quae eaque a fugiat odio numquam sed esse cum officia error dolorem similique sunt doloribus eligendi dolore. Tempora numquam accusamus nisi delectus voluptate
+                                                    consequuntur, voluptatum distinctio non. Quos debitis facilis ad consequuntur beatae, adipisci quaerat neque iure? Delectus consequuntur tenetur quo et rerum aliquid quibusdam perspiciatis eligendi eaque
+                                                    nobis exercitationem molestiae, tempore officiis deleniti praesentium totam quisquam placeat aut veniam, dolor, vero soluta libero perferendis optio! Veritatis quisquam doloribus incidunt enim reiciendis
+                                                    minus accusamus, numquam pariatur neque cumque officiis, in dignissimos a perferendis architecto cupiditate facilis. Omnis!
                                                 </div>
                                             </div>
                                         </div>
