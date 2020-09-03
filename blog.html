@@ -9,7 +9,7 @@ author: False
         <div class="row">
             <div class="col-md-8 blog-posts-wrap">
                 <div class="flex-row">
-                    {% for post in site.posts %} {% if post.category=="home" %}
+                    {% for post in site.posts %} 
                     <article style="height: 300px;" id="post-429" class="card card-blog card-plain post-429 post type-post status-publish format-standard has-post-thumbnail hentry category-dia-da-mulher category-noticias">
                         <div class="row ">
                             <div class="col-ms-5 col-sm-5">
@@ -18,8 +18,8 @@ author: False
                                 </div>
                             </div>
                             <div class="col-ms-7 col-sm-7">
-                                <h6 class="category text-info"><a href="{{post.url}}" title="{{post.title}}" rel="tag">{{post.title}}</a> </h6>
-                                <h2 class="card-title entry-title"><a href="{{post.url}}" title="{{post.subtitle}}" rel="bookmark">{{post.subtitle}}</a></h2>
+                                <h6 class="category text-info"><a href="{{post.url}}" title="{{post.category}}" rel="tag">{{post.category}}</a> </h6>
+                                <h2 class="card-title entry-title"><a href="{{post.url}}" title="{{post.title}}" rel="bookmark">{{post.title}}</a></h2>
                                 <div class="card-description entry-summary ">
                                     <p>{{post.description}}<a class="moretag" href="{{post.url}}"> Read more…</a></p>
                                 </div>
@@ -29,7 +29,7 @@ author: False
                             </div>
                         </div>
                     </article>
-                    {% endif %} {% endfor %}
+                    {% endfor %}
                 </div>
             </div>
             {% include sidebar.html %}

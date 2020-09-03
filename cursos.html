@@ -27,13 +27,13 @@ author: False
                                         <!---GRID-->
                                         <!--LINHA 0-->
 
-                                        {% for post in site.posts %} {% if post.category=="cursos" %}
+                                        {% for post in site.data.cursos.cursos %} 
                                         <div id="pg-w5e1396e2cc597-0" class="panel-grid panel-no-style" style=" float: left; width: 33%;padding: 20px;">
 
                                             <div style="width:300px;margin: 0 auto; border: 1px solid red;border-radius: 5px;" id="pgc-w5e1396e2cc597-0-0" class="panel-grid-cell">
                                                 <div style="position: relative; height: 506px;" class="panel-cell-style panel-cell-style-for-w5e1396e2cc597-0-0">
                                                     <div id="panel-w5e1396e2cc597-0-0-0" class="so-panel widget widget_media_image panel-first-child" data-index="0">
-                                                        <div class="img-curso panel-widget-style panel-widget-style-for-w5e1396e2cc597-0-0-0"><img width="{{post.banner-width}}" height="{{post.banner-height}}" src="{{post.banner300x169}}" class="image wp-image-285  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto; align-items: center;display: block; margin-left: auto; margin-right: auto;"></div>
+                                                        <div class="img-curso panel-widget-style panel-widget-style-for-w5e1396e2cc597-0-0-0"><img width="300" height="169" src="{{post.teaser}}" class="image wp-image-285  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto; align-items: center;display: block; margin-left: auto; margin-right: auto;"></div>
                                                     </div>
                                                     <div style="align-items: center;" id="panel-w5e1396e2cc597-0-0-1" class="widget_text so-panel widget widget_custom_html" data-index="1">
 
@@ -43,7 +43,7 @@ author: False
                                                                     {{post.title}}
                                                                 </p>
                                                                 <p style="text-align:center; font-size:11px; font-family: Montserrat, sans serif;">
-                                                                    {{post.textdescription}} </p>
+                                                                    {{post.description}} </p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -58,7 +58,7 @@ author: False
                                                 </div>
                                             </div>
                                         </div>
-                                        {% endif %} {% endfor %}
+                                        {% endfor %}
                                     </div>
                                 </div>
                             </div>
