@@ -20,7 +20,7 @@ inner-subtitles:
         <article id="post-429" class="section section-text">
             <div class="row">
                 <div class="col-md-8 single-post-container" data-layout="sidebar-right">
-                    <div class="single-post-wrap entry-content">
+                    <div style="padding-left:3%" class="single-post-wrap entry-content">
                         <div id="pl-429" class="panel-layout">
                             <div id="pg-429-0" class="panel-grid panel-has-style">
                                 <div class="panel-row-style panel-row-style-for-429-0">

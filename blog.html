@@ -1,6 +1,6 @@
 --- 
 layout: main-layout 
-banner: '/assets/img/neutra-vinho.png' 
+banner: '/assets/img/017_Ripe Malinka.png' 
 title: BLOG 
 author: False 
 ---
@@ -24,7 +24,7 @@ author: False
                                     <p>{{post.description}}<a class="moretag" href="{{post.url}}"> Read more…</a></p>
                                 </div>
                                 <div class="posted-by vcard author">By <a href="http://pef.neesuff.com/author/neesuff/" title="neesuff" class="url"><b class="author-name fn">{{post.author}}</b></a>,
-                                    <a href="{{post.url}}"><time class="entry-date published" datetime="{{post.date}}" content="2020-03-08">{{post.date}}</time><time class="updated hestia-hidden" datetime="{{post.date}}" wfd-invisible="true"></time></a>
+                                    <a href="{{post.url}}"><time class="entry-date published" datetime="{{post.date}}" content="2020-03-08">{{post.date | date: "%b %-d %Y" }}</time><time class="updated hestia-hidden" datetime="{{post.date}}" wfd-invisible="true"></time></a>
                                 </div>
                             </div>
                         </div>

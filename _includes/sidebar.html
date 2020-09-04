@@ -3,27 +3,20 @@
         <div id="search-2" class="widget widget_search">
             <form role="search" method="get" class="search-form form-group" action="http://pef.neesuff.com/">
                 <label class="label-floating is-empty form-group">
-        <span class="screen-reader-text">Search for:</span>
-        <label class="control-label"> Search … </label><input type="search" class="search-field form-control" value="" name="s">
+        <span class="screen-reader-text" value="Busca"></span>
+        <label class="control-label"> </label><input type="search" value="" name="s">
                 </label>
-                <input type="submit" class="search-submit" value="Search">
+                <input type="submit" class="search-submit" value="">
             </form>
         </div>
         <div id="recent-posts-2" class="widget widget_recent_entries">
             <h5>Recent Posts</h5>
             <ul>
+                {% for post in site.posts limit:3 %}
                 <li>
-                    <a href="http://pef.neesuff.com/2020/03/08/mulheres-quilombolas-que-representam-a-garra-feminina/">Mulheres Quilombolas que Representam a Garra Feminina</a>
+                    <a href="{{post.url}}">{{post.title}}</a>
                 </li>
-                <li>
-                    <a href="http://pef.neesuff.com/2020/03/08/simbolos-de-luta-mulheres-que-inspiram/">Símbolos de luta: mulheres que inspiram</a>
-                </li>
-                <li>
-                    <a href="http://pef.neesuff.com/2019/11/20/360/">20 de Novembro – Dia Nacional da Consciência Negra</a>
-                </li>
-                <li>
-                    <a href="http://pef.neesuff.com/2019/10/02/hello-world/">Olá!</a>
-                </li>
+                {% endfor %}
             </ul>
         </div>
         <div id="recent-comments-2" class="widget widget_recent_comments">

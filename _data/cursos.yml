@@ -1,37 +1,37 @@
 cursos:
   - title: ACESSO À CRÉDITO E LINHAS DE FOMENTO
-    teaser: http://pef.neesuff.com/wp-content/uploads/2019/11/Acesso-à-Crédito-e-Linhas-de-Fomento-300x169.png
+    teaser: \assets\img\cursos\Acesso-à-Crédito-e-Linhas-de-Fomento-300x169.png
     description: |
       dahenhashakhnaskfnahfiehbfehsef
   - title: AGRICULTURA FAMILIAR
-    teaser: http://pef.neesuff.com/wp-content/uploads/2019/11/agricultura-familiar-300x169.png
+    teaser: \assets\img\cursos\agricultura-familiar-300x169.png
   - title: ANÁLISE E ELABORAÇÃO DE CASOS PRÁTICOS
-    teaser: http://pef.neesuff.com/wp-content/uploads/2019/11/Análise-e-Elaboração-de-Casos-Práticos-300x169.png
+    teaser: \assets\img\cursos\Análise-e-Elaboração-de-Casos-Práticos-300x169.png
   - title: ASSOCIATIVISMO
-    teaser: http://pef.neesuff.com/wp-content/uploads/2019/11/Assosciativismo-300x169.png
+    teaser: \assets\img\cursos\Assosciativismo-300x169.png
     description: |
       Tem como objetivo realizar um estudo de campo aplicando metodologias de pesquisa-ação, tomando como base o escopo concreto de assentamentos rurais e comunidades quilombolas.
   - title: CONTABILIDADE BÁSICA
-    teaser: http://pef.neesuff.com/wp-content/uploads/2019/11/Contabilidade-Básica-300x169.png
+    teaser: \assets\img\cursos\Contabilidade-Básica-300x169.png
     description: |
       Tem como objetivo ilustrar de forma clara e objetiva, conceitos e exemplos de como pequenos empreendedores podem utilizar ferramentas de Contabilidade Básica no seu dia a dia.
   - title: CUSTOS DE PRODUÇÃO
-    teaser: http://pef.neesuff.com/wp-content/uploads/2019/11/custos-de-producao-300x169.png
+    teaser: \assets\img\cursos\custos-de-producao-300x169.png
   - title: ECONOMIA DOMÉSTICA E CONSUMO SUSTENTÁVEL
-    teaser: src="http://pef.neesuff.com/wp-content/uploads/2019/11/economia-domestica-300x169.png"
+    teaser: \assets\img\cursos\economia-domestica-300x169.png"
     description: |
       Tem como objetivo ilustrar de forma clara e objetiva, conceitos e exemplos de como se realizar um consumo responsável que é capaz de auxiliar na Economia Doméstica.
   - title: FUNDAMENTOS DA EDUCAÇÃO FINANCEIRA
-    teaser: src="http://pef.neesuff.com/wp-content/uploads/2019/11/fundamentos-da-educacao-financeira-300x169.png"
+    teaser: \assets\img\cursos\fundamentos-da-educacao-financeira-300x169.png"
     description: |
       Tem o objetivo de realizar um estudo conceitual e exemplificado sobre os fundamentos da educação financeira.
   - title: INTRODUÇÃO À ECONOMIA AGRÍCOLA
-    teaser: src="http://pef.neesuff.com/wp-content/uploads/2019/11/economia-agricola-1-300x169.png"
+    teaser: \assets\img\cursos\economia-agricola-1-300x169.png"
     description: |
       Apresenta ao aluno uma ampla visão sobre o papel da agricultura no desenvolvimento social e econômico do Brasil com um maior enfoque no papel dos agricultores familiares quilombolas e assentados rurais do INCRA neste panorama.
   - title: POUPANÇA E CRÉDITO PESSOAL
-    teaser: "http://pef.neesuff.com/wp-content/uploads/2019/11/economia-agricola-1-300x169.png"
+    teaser: \assets\img\cursos\economia-agricola-1-300x169.png"
   - title: EMPREENDEDORISMO
-    teaser: http://pef.neesuff.com/wp-content/uploads/2019/11/empreendedorismo-300x169.png
+    teaser: \assets\img\cursos\empreendedorismo-300x169.png
     description: |
       Proporciona aos alunos os principais conteúdos e a importância do empreendedorismo no contexto social, a identificação das principais características de pessoas que podem se tornar empreendedoras e quais são suas capacidades cognitivas, bem como um empreendedor deve se comportar. Ilustra de forma clara, como elaborar um plano de negócios e sua importância para o sucesso do negócio.

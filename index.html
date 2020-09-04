@@ -1,7 +1,7 @@
 ---
 layout: main-layout
-banner: '/assets/img/neutra-vinho.png'
-title: 
+banner: /assets/img/IMG_20190207_115853-2.jpg
+title: "home"
 ---
 <section class="hestia-about section-image" id="about" data-sorder="hestia_about" style="background-image: url('http://pef.neesuff.com/wp-content/uploads/2019/10/Fundo-sobre.jpg');">
     <div style="background-image: url(http://pef.neesuff.com/wp-content/uploads/2020/01/bg-sobre.png);" class="container">
@@ -81,7 +81,7 @@ title:
         </div>
         <div class="hestia-blog-content">
             <div class="row aos-init aos-animate" data-aos="fade-up">
-                {% for post in site.posts %} 
+                {% for post in site.posts limit:3 %} 
                 <article style="height: 470px; float: left; width: 33%;padding: 20px;">
                     <div class="card card-plain card-blog">
                         <div class="card-image">
