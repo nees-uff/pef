@@ -1,0 +1,34 @@
+equipe:
+  - title: MORGANA
+    teaser: \assets\img\equipe\equipe-morgana-2-300x300.jpg
+    description: Apoio Operacional
+  - title: MARCO SANFINS
+    teaser: \assets\img\equipe\equipe-marco-150x150.jpg
+    description: Professor
+  - title: PEDRO RODRIGUES
+    teaser: \assets\img\equipe\equipe-pedro-300x300.jpg
+    description: Apoio Operacional
+  - title: CARLA HERNÁNDEZ
+    teaser: \assets\img\equipe\carla-cor-300x300.jpg
+    description: Apoio Operacional
+  - title: VANESSA PORTO
+    teaser: \assets\img\equipe\equipe-vanessa-300x300.jpg
+    description: Apoio Operacional
+  - title: RAFAEL CUNHA
+    teaser: \assets\img\equipe\equipe-rafael-300x300.jpg
+    description: Apoio Operacional
+  - title: THIAGO FREITAS
+    teaser: \assets\img\equipe\thiago-300x300.jpg
+    description: Apoio Operacional
+  - title: JOÃO RUIZ
+    teaser: \assets\img\equipe\joao-150x150.jpg
+    description: Equipe de Campo
+  - title: IGOR
+    teaser: \assets\img\equipe\igor-300x300.jpg
+    description: Equipe de Campo
+  - title: GUSTAVO GALLEAZZO
+    teaser: \assets\img\equipe\gustavo-150x150.jpg
+    description: Equipe de Campo
+  - title: ROBERTO
+    teaser: \assets\img\equipe\roberto-150x150.jpg
+    description: Equipe de Campo

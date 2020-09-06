@@ -1,10 +1,16 @@
---- layout: main-layout banner: '/assets/img/017_Ripe Malinka.png' title: BLOG author: False ---
+--- 
+layout: main-layout 
+banner: '/assets/img/017_Ripe Malinka.png' 
+title: Dia da mulher
+author: False 
+---
 <div class="hestia-blogs" data-layout="sidebar-right">
     <div class="container">
         <div class="row">
             <div class="col-md-8 blog-posts-wrap">
                 <div class="flex-row">
-                    {% for post in site.posts %} {% if post.category == page.category %}
+                    {% for post in site.posts %}
+                    {% if post.category == page.title %}
                     <article style="height: 300px;" id="post-429" class="card card-blog card-plain post-429 post type-post status-publish format-standard has-post-thumbnail hentry category-dia-da-mulher category-noticias">
                         <div class="row ">
                             <div class="col-ms-5 col-sm-5">
@@ -24,6 +30,7 @@
                             </div>
                         </div>
                     </article>
+		    {% endif %}
                     {% endfor %}
                 </div>
             </div>

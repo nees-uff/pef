@@ -38,7 +38,7 @@ inner-subtitles:
                                         <div id="panel-429-0-0-1" class="so-panel widget widget_sow-editor" data-index="1">
                                             <div class="so-widget-sow-editor so-widget-sow-editor-base">
                                                 <div class="siteorigin-widget-tinymce textwidget">
-                                                    <p><img src="http://pef.neesuff.com/wp-content/uploads/2020/03/BLOG01-Jane.jpg" alt="" class="wp-image-415 alignleft" srcset="http://pef.neesuff.com/wp-content/uploads/2020/03/BLOG01-Jane.jpg 672w, http://pef.neesuff.com/wp-content/uploads/2020/03/BLOG01-Jane-240x300.jpg 240w"
+                                                    <p><img src="/assets/img/BLOG01-Jane.jpg" alt="" class="wp-image-415 alignleft" srcset="/assets/img/BLOG01-Jane.jpg 672w, /assets/img/BLOG01-Jane-240x300.jpg 240w"
                                                             sizes="(max-width: 483px) 100vw, 483px" width="483" height="604"></p>
                                                     <p>Neste domingo (8), é comemorado o Dia Internacional da Mulher e para celebrar um dia marcado por tanta luta e resistência, o NEES/PROEX/UFF conversou com Jane Maria Oliveira, de 44 anos, mulher negra
                                                         que mora na comunidade quilombola Maria Joaquina, em Praia Rasa, localizada em Cabo Frio, na Região dos Lagos do Rio de Janeiro.</p>
@@ -88,8 +88,7 @@ inner-subtitles:
 <div class="section section-blog-info">
     <div class="row">
         <div class="col-md-6">
-            <div class="entry-categories">Categories: <span class="label label-primary"><a href="http://pef.neesuff.com/category/dia-da-mulher/">Dia da Mulher</a></span>
-            <span class="label label-primary"><a href="http://pef.neesuff.com/category/noticias/">Notícias</a></span>                                    
+            <div class="entry-categories">Categories: <span class="label label-primary"><a href="{{site.url}}/categories/dia-da-mulher/">Dia da Mulher</a></span>                                    
             </div>
         </div>
 <div class="col-md-6">
@@ -100,7 +99,7 @@ inner-subtitles:
 <a target="_blank" rel="tooltip" data-original-title="Share on Twitter" class="btn btn-just-icon btn-round btn-twitter" href="http://twitter.com/share?url=http://pef.neesuff.com/2020/03/08/mulheres-quilombolas-que-representam-a-garra-feminina/&amp;text=Mulheres%20Quilombolas%20que%20Representam%20a%20Garra%20Feminina">
     <i class="fa fa-twitter"></i>
 </a>
-<a rel="tooltip" data-original-title=" Share on Email" class="btn btn-just-icon btn-round" href="mailto:?subject=Mulheres%20Quilombolas%20que%20Representam%20a%20Garra%20Feminina&amp;body=http://pef.neesuff.com/2020/03/08/mulheres-quilombolas-que-representam-a-garra-feminina/">
+<a rel="tooltip" data-original-title=" Share on Email" class="btn btn-just-icon btn-round" href="mailto:?subject=Mulheres%20Quilombolas%20que%20Representam%20a%20Garra%20Feminina&amp;body={{page.url}}">
     <i class="fa fa-envelope"></i>
 </a>
         </div>

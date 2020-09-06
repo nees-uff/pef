@@ -22,14 +22,14 @@ inner-subtitles:
                 <div class="col-md-8 single-post-container" data-layout="sidebar-right">
                     <div class="single-post-wrap entry-content">
                         <div style="float: left; width: 50%; max-width: 600px; margin: 0 10px;">
-                            <p><img src="http://pef.neesuff.com/wp-content/uploads/2019/11/foto2.jpg" alt=""></p>
+                            <p><img src="/assets/img/foto2.jpg" alt=""></p>
                             <p style="font-size: 12px;"><a href="http://www.pdt.org.br/index.php/dia-da-consciencia-negra-abdias-nascimento-a-voz-forte-contra-o-racismo-no-brasil/">http://www.pdt.org.br/index.php/dia-da-consciencia-negra-abdias-nascimento-a-voz-forte-contra-o-racismo-no-brasil/</a></p>
                         </div>
                         <p style="text-align: justify;">Hoje, dia nacional da consciência negra nossa homenagem vai para dois protagonistas importantes da história brasileira! Estamos nos referindo à Carolina de Jesus, mulher e escritora que representa a literatura feminina negra no
                             Brasil, e ao deputado, economista, senador e artista Abdias Nascimento! A homenagem à Carolina de Jesus e Abdias do Nascimento representa a contribuição política, cultural e socioeconômica dos africanos e seus descendentes
                             a nossa sociedade.</p>
                         <div style="float: right; width: 50%; max-width: 600px; margin: 0 10px;">
-                            <p><img src="http://pef.neesuff.com/wp-content/uploads/2019/11/foto1.jpg" alt=""></p>
+                            <p><img src="/assets/img/foto1.jpg" alt=""></p>
                             <p style="font-size: 12px;"><a href="https://brasil.elpais.com/brasil/2019/03/14/politica/1552565999_169291.html">https://brasil.elpais.com/brasil/2019/03/14/politica/1552565999_169291.html</a></p>
                         </div>
                         <p style="text-align: justify;">A data do dia 20 de novembro foi estabelecida pelo projeto Lei n.º 10.639, no dia 9 de janeiro de 2003. No entanto, somente em 2011 a lei foi sancionada (Lei 12.519/2011), sendo escolhida por representar o dia da morte do líder
@@ -42,7 +42,8 @@ inner-subtitles:
 <div class="section section-blog-info">
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="entry-categories">Categories: <span class="label label-primary"><a href="http://pef.neesuff.com/category/noticias/">Notícias</a></span> </div>
+                                <div class="entry-categories">Categories: 
+                                <span class="label label-primary"><a href="{{site.url}}/categories/noticias/">{{page.category}}</a></span> </div>
                             </div>
 
 <div class="col-md-6">
@@ -55,7 +56,7 @@ inner-subtitles:
                                         <i class="fa fa-twitter"></i>
                                     </a>
 
-<a rel="tooltip" data-original-title=" Share on Email" class="btn btn-just-icon btn-round" href="mailto:?subject=20%20de%20Novembro%20%26#8211;%20Dia%20Nacional%20da%20Consciência%20Negra&amp;body=http://pef.neesuff.com/2019/11/20/360/">
+<a rel="tooltip" data-original-title=" Share on Email" class="btn btn-just-icon btn-round" href="mailto:?subject=20%20de%20Novembro%20%26#8211;%20Dia%20Nacional%20da%20Consciência%20Negra&amp;body={{page.url}}">
                                         <i class="fa fa-envelope"></i>
                                     </a>
                                 </div>

@@ -38,7 +38,7 @@ inner-subtitles:
                                     <div id="panel-414-0-0-1" class="so-panel widget widget_sow-editor" data-index="1">
                                         <div class="so-widget-sow-editor so-widget-sow-editor-base">
                                             <div class="siteorigin-widget-tinymce textwidget">
-                                                <div id="attachment_416" style="width: 462px" class="wp-caption alignleft"><img aria-describedby="caption-attachment-416" src="http://pef.neesuff.com/wp-content/uploads/2020/03/BLOG03-Elizabeth.jpg" alt="Elizabeth Teixeira" class="wp-image-416" srcset="http://pef.neesuff.com/wp-content/uploads/2020/03/BLOG03-Elizabeth.jpg 569w, http://pef.neesuff.com/wp-content/uploads/2020/03/BLOG03-Elizabeth-240x300.jpg 240w"
+                                                <div id="attachment_416" style="width: 462px" class="wp-caption alignleft"><img aria-describedby="caption-attachment-416" src="/assets/img/BLOG03-Elizabeth.jpg" alt="Elizabeth Teixeira" class="wp-image-416" srcset="/assets/img/BLOG03-Elizabeth.jpg 569w, /assets/img/BLOG03-Elizabeth-240x300.jpg 240w"
                                                         sizes="(max-width: 452px) 100vw, 452px" width="452" height="566">
                                                     <p id="caption-attachment-416" class="wp-caption-text">Elizabeth Teixeira</p>
                                                 </div>
@@ -75,7 +75,7 @@ inner-subtitles:
                                     <div id="panel-414-0-0-3" class="so-panel widget widget_sow-editor panel-last-child" data-index="3">
                                         <div class="so-widget-sow-editor so-widget-sow-editor-base">
                                             <div class="siteorigin-widget-tinymce textwidget">
-                                                <div id="attachment_417" style="width: 370px" class="wp-caption alignright"><img aria-describedby="caption-attachment-417" src="http://pef.neesuff.com/wp-content/uploads/2020/03/BLOG04-Celia.jpg" alt="Célia Cristina da Silva Pinto" class="wp-image-417 size-full" srcset="http://pef.neesuff.com/wp-content/uploads/2020/03/BLOG04-Celia.jpg 360w, http://pef.neesuff.com/wp-content/uploads/2020/03/BLOG04-Celia-240x300.jpg 240w"
+                                                <div id="attachment_417" style="width: 370px" class="wp-caption alignright"><img aria-describedby="caption-attachment-417" src="/assets/img/BLOG04-Celia.jpg" alt="Célia Cristina da Silva Pinto" class="wp-image-417 size-full" srcset="/assets/img/BLOG04-Celia.jpg 360w, /assets/img/BLOG04-Celia-240x300.jpg 240w"
                                                         sizes="(max-width: 360px) 100vw, 360px" width="360" height="450">
                                                     <p id="caption-attachment-417" class="wp-caption-text">Célia Cristina da Silva Pinto</p>
                                                 </div>
@@ -106,7 +106,8 @@ inner-subtitles:
 <div class="section section-blog-info">
     <div class="row">
                         <div class="col-md-6">
-                            <div class="entry-categories">Categories: <span class="label label-primary"><a href="http://pef.neesuff.com/category/dia-da-mulher/">Dia da Mulher</a></span><span class="label label-primary"><a href="http://pef.neesuff.com/category/noticias/">Notícias</a></span>                                </div>
+                            <div class="entry-categories">Categories: <span class="label label-primary"><a href="{{site.url}}/categories/dia-da-mulher/">Dia da Mulher</a></span>
+                            </div>
                         </div>
 
 <div class="col-md-6">
@@ -119,7 +120,7 @@ inner-subtitles:
                                     <i class="fa fa-twitter"></i>
                                 </a>
 
-<a rel="tooltip" data-original-title=" Share on Email" class="btn btn-just-icon btn-round" href="mailto:?subject=Símbolos%20de%20luta:%20mulheres%20que%20inspiram&amp;body=http://pef.neesuff.com/2020/03/08/simbolos-de-luta-mulheres-que-inspiram/">
+<a rel="tooltip" data-original-title=" Share on Email" class="btn btn-just-icon btn-round" href="mailto:?subject=Símbolos%20de%20luta:%20mulheres%20que%20inspiram&amp;body={{page.url}}">
                                     <i class="fa fa-envelope"></i>
                                 </a>
                             </div>
