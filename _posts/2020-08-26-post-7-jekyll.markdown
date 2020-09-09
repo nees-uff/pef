@@ -136,3 +136,4 @@ inner-subtitles:
     </article>
 
 </div>
+{% include related-post.html %}

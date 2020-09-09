@@ -5,8 +5,7 @@
             <div class="col-md-12">
                 <h2 class="hestia-title text-center">Related Posts</h2>
                 <div class="row">
-                    {% for post in site.posts %} {% if post.category == page.category and post.title != page.title and aux
-                    < 3 %} <div class="col-md-4">
+                    {% for post in site.posts limit:3 %} {% if post.category == page.category %} <div class="col-md-4">
                         <div class="card card-blog">
                             <div class="card-image">
                                 <a href="{{post.url}}" title="{{post.title}}">
@@ -22,7 +21,7 @@
                             </div>
                         </div>
                 </div>
-                {% assign aux = aux + 1 %} {% endif %} {% endfor %}
+                {% endif %}{% endfor %}
 
             </div>
         </div>
