@@ -1,0 +1,47 @@
+--- 
+layout: main-layout 
+banner: '/assets/img/017_Ripe Malinka.png' 
+title: ARCHIVE 
+author: False 
+---
+<div class="hestia-blogs" data-layout="sidebar-right">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 blog-posts-wrap">
+                {%- assign posts = site.posts -%}
+                {%- assign groupedByYear = posts | group_by_exp:"post","post.date | date:'%Y' " -%}
+                {%- for yearitem in groupedByYear -%}
+                <year class="flex-row"><h2 style="font-size:48px;margin-left:auto;margin-right:auto;" class="card-title entry-title">{{ yearitem.name }}</h2></year>
+                <div class="flex-row">
+
+                    {% for post in yearitem.items %}
+                    <date class="row "><h1 style="font-size:24px;" class="card-title entry-title">{{ post.date | date:'%B %e'}}</h3></date>
+                    <article style="height: 300px;" id="post-429" class="card card-blog card-plain post-429 post type-post status-publish format-standard has-post-thumbnail hentry category-dia-da-mulher category-noticias">
+                        <div class="row ">
+                            <div class="col-ms-5 col-sm-5">
+                                <div class="card-image">
+                                    <a href="{{post.url}}" title="Mulheres Quilombolas que Representam a Garra Feminina"><img width="{{post.banner-width}}" height="{{post.banner-height}}" src="{{post.banner}}" class="attachment-hestia-blog size-hestia-blog wp-post-image" alt="" srcset="{{post.banner}} 360w, {{post.banner}} 272w" sizes="(max-width: 360px) 100vw, 360px"></a>
+                                </div>
+                            </div>
+                            <div class="col-ms-7 col-sm-7">
+                                <h6 class="category text-info"><a href="{{post.url}}" title="{{post.category}}" rel="tag">{{post.category}}</a> </h6>
+                                <h2 class="card-title entry-title"><a href="{{post.url}}" title="{{post.title}}" rel="bookmark">{{post.title}}</a></h2>
+                                <div class="card-description entry-summary ">
+                                    <p>{{post.description}}<a class="moretag" href="{{post.url}}"> Read more…</a></p>
+                                </div>
+                                <div class="posted-by vcard author">By <a href="http://pef.neesuff.com/author/neesuff/" title="neesuff" class="url"><b class="author-name fn">{{post.author}}</b></a>,
+                                    <a href="{{post.url}}"><time class="entry-date published" datetime="{{post.date}}" content="2020-03-08">{{post.date | date: "%b %-d %Y" }}</time><time class="updated hestia-hidden" datetime="{{post.date}}" wfd-invisible="true"></time></a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    {% endfor %}
+                </div>
+                {% endfor %}
+
+
+            </div>
+            {% include sidebar.html %}
+        </div>
+    </div>
+</div>
